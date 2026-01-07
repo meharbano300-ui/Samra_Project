@@ -1,0 +1,224 @@
+
+#navbar-inverse{
+	background-color:white; border-bottom:1px solid lavender; box-shadow:0px 0px 10px 0px;
+	
+}
+#navbar-header{
+	background-color:re; margin-left:30px; 
+}
+#header{
+  height:70px; 
+}
+#loogin{
+	height:70px; 
+}
+ #user{
+	 font-size:15px;  padding-top:23px; margin-left:-20px;
+ }
+#log{
+	height:auto; width:90px; margin-left:-10px; margin-top:20px;
+}
+#log p{
+	font-size:15px; color:#0159BD; font-family:Franklin Gothic Book; padding-top:20px; 
+}
+#RmLine{
+	text-decoration:none;
+}
+#AAA{
+	height:70px; margin:0px; padding:0px;
+}
+#reg{
+	height:70px; background-color:pin; 
+}
+
+#headerA{
+  height:auto; 
+}
+#leftA{
+	height:auto; 
+}
+#leftA img{
+	height:22px; width:22px; margin-left:-14px; margin-top:20px;
+}
+#rightA{
+	height:auto;  
+}
+#rightA p{
+	font-size:15px; color:#0159BD;  margin-left:-30px; margin-top:20px;
+}
+#pic{
+	height:56px; width:155px; margin-top:-12px;
+}
+#color{
+	background:rgba(0,0,0,0.3);
+}
+p
+{
+    color: #fff;
+	font-family:Franklin Gothic Book;
+}
+.menus
+{
+	color:#0159BD; padding-top:8px; padding-left:2px;
+	font-family:Franklin Gothic Book; font-size:16px; 
+}
+.menus:hover{
+	color:orange;
+	 text-decoration:none;
+}
+
+#main{
+	height:auto; margin:0px; padding:0px; margin-top:75px; background-color:#348CC2; 
+}
+#mainA{
+	height:60px; background:rgba(0,0,0,0.3); 
+}
+#mainA p{
+	font-size:20px; color:white; padding-left:149px; padding-top:23px; font-family:Franklin Gothic Book;
+}
+#mainB{
+	height:40px;  background:rgba(0,0,0,0.3);
+}
+#flt{
+	width:80px; height:23px; margin-left:150px; border-radius:30px; border:1px solid white; margin-top:10px;
+}
+#flt p{
+	font-size:18px; color:white; font-family:Franklin Gothic Book;  text-align:center;
+}
+#a{
+	text-decoration:none;
+}
+#mainC{
+	height:100px; background:rgba(0,0,0,0.3);  
+}
+#formA{
+	height:40px; width:200px; border:none; padding-left:10px; margin-left:70px; margin-top:-15px;
+}
+#formA p{
+	font-size:19px; color:white; padding-top:25px; padding-left:70px; font-family:Franklin Gothic Book;
+}
+#formB{
+	height:40px; width:200px; border:none; padding-left:10px; margin-left:40px; margin-top:-15px; 
+}
+#formB p{
+	font-size:19px; color:white; padding-top:25px; padding-left:40px; font-family:Franklin Gothic Book;
+}
+
+#formC{
+	height:40px; width:200px; border:none; padding-left:10px; margin-left:25px; margin-top:-15px; 
+}
+#formC p{
+	font-size:19px; color:white; padding-top:25px; padding-left:25px; font-family:Franklin Gothic Book;
+}
+#formD{
+	height:40px; width:200px; border:none; padding-left:10px; margin-left:18px; margin-top:-15px;
+   border:0px 0px 2px 2px, solid green;	
+}
+#formD p{
+	font-size:19px; color:white; padding-top:25px; padding-left:18px; font-family:Franklin Gothic Book;
+}
+
+#btn{
+	height:40px; width:100px;  margin-top:37px; margin-left:50px; font-size:18px; background-color:#E96E25; border:none;	 
+}
+
+#image{
+	height:280px; margin-top:20px;
+}
+#image img{
+	margin-left:135px; width:1040px;
+}
+
+#para{
+	height:50px;  
+}
+#para p{
+	font-size:20px; color:#015392; padding-left:150px; font-family:Franklin Gothic Book;
+}
+#box{
+	height:930px; 
+}
+#boxAA{
+	height:50px; margin-left:40px; box-shadow:0px 0px 3px 0px; background-color:#FBF7F7; 
+}
+#boxAA p{
+	font-size:20px; color:black; padding-top:7px; 
+}
+#boxa{
+	height:120px; border:px solid lavender; margin-left:40px; box-shadow:0px 0px 3px 0px; 
+}
+#pUP{
+	font-size:16px; color:#333; padding-top:35px; text-align:center; font-family:Franklin Gothic Book; 
+}
+#pDOWN{
+	font-size:16px; color:#333; margin-top:-10px; text-align:center; 
+}
+#boxb{
+	height:120px; border:px solid lavender; box-shadow:0px 0px 1px 0px; 
+}
+#boxBB{
+	height:50px; margin-left:40px; box-shadow:0px 0px 1px 0px; margin-top:30px; background-color:#FBF7F7; 
+}
+#boxBB p{
+	font-size:20px; color:black; padding-top:7px; 
+}
+
+#boxBa{
+	height:90px; margin-left:40px; box-shadow:0px 0px 1px 0px;
+}
+#boxBa p{
+	font-size:16px; color:#333; padding-top:7px; font-family:Franklin Gothic Book;
+}
+
+#boxBBa{
+	height:110px; margin-left:40px; box-shadow:0px 0px 1px 0px;  
+}
+#boxBBa li{
+	font-size:16px; color:#333; padding-top:3px; font-family:Franklin Gothic Book;
+}
+
+#boxbox{
+	height:430px; margin-left:40px; box-shadow:0px 0px 1px 0px;  
+}
+#boxbox li{
+	font-size:16px; color:#333; padding-top:5px; font-family:Franklin Gothic Book;
+}
+
+#footer{
+	height:auto; background-color:#3F3F3F; margin-top:150px;
+}
+#footerinner{
+	height:auto; 
+}
+#footerA{
+	height:auto; background-color:#3F3F3F; 
+}
+#footerAA{
+	height:auto; background-color:#3F3F3F; 
+}
+#upp{
+	font-size:22px; color:#FFFFFF; margin-left:-10px; padding-top:10px; 
+}
+#down{
+	font-size:15px; color:#FFFFFF; margin-left:-10px; 
+}
+#rights{
+	height:45px; background-color:black; 
+}
+#rights p{
+	font-size:15px; text-align:center; padding-top:9px; color:white;
+}
+#links{
+	height:45px; background-color:black; 
+}
+#links img{
+	height:35px; width:35px; margin-left:20px; margin-top:10px;
+}
+#marquee{
+	height:60px; background-color:white;
+}
+#img{
+	margin-top:-5px; height:60px;
+}
+
+

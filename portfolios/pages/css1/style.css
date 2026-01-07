@@ -1,0 +1,314 @@
+
+*{
+	margin:0px; padding:0px; 
+	
+}
+#header{
+   height:110px; width:1345px; background-color:skyblue; margin-top:-10px; 
+	}
+
+#headerA{
+   height:110px; width:545px; background-color:#09f; float:left;
+	}
+#headerAp{
+	 font-size:60px; color:white;  padding-top:10px; font-weight:800; font-family:Elephant; box-shadow:#063 #333300 #CC9900;
+	 padding-left:20px; padding-left:250px;   
+}
+#headerAap{
+	 font-size:18px; color:white; margin-top:-15px; font-family:corbel;
+	  padding-left:250px;
+}
+
+#headerB{
+   height:110px; width:800px; background-color:#09f; float:left;
+	}
+#headerBa{
+   height:95px; width:80px; background-color:orange;  float:left; margin-left:100px;
+    margin-top:15px; border-radius:2px;
+}
+#headerBa:hover{
+	 background-color:#09f;
+	 color:orange;
+	 
+ }
+#headerBapp{
+	 font-size:21px; color:white;  padding-top:20px;
+}
+#headerBap{
+	 font-size:21px; color:white;  padding-top:10px;
+}	
+#headerBb{
+   height:80px; width:80px; background-color:yellowgreen; float:left; margin-top:30px; border-radius:1px;
+ }
+ #headerBb:hover{
+	 background-color:#09f;
+	color:red;
+ }
+#headerBc{
+   height:80px; width:80px; background-color:#c10;  float:left; margin-top:30px; border-radius:1px;
+   
+	}
+#headerBc:hover{
+	 background-color:#09f;
+	 color:#c10;
+ }
+#headerBd{
+   height:80px; width:80px; background-color:orange; float:left; margin-top:30px; border-radius:1px;
+   
+}
+#headerBd:hover{
+	 background-color:#09f;
+	 color:orange;
+ }
+#headerBe{
+   height:80px; width:80px; background-color:yellowgreen; float:left; margin-top:30px; border-radius:1px;
+  }
+ #headerBe:hover{
+	 background-color:#09f;
+	 color:yellowgreen;
+ }
+#headerBf{
+   height:80px; width:80px; background-color:orange; float:left; margin-top:30px; border-radius:2px;
+ }
+ #headerBf:hover{
+	 background-color:#09f;
+	 color:orang;
+ }
+	
+#second{
+	height:400px; width:1335px; background-color:pink; margin-top:px;
+}
+#img{
+	height:400px; width:1345px;
+}
+#Thirdpart{
+	 height:390px; width:1345px; background-color:yellowgreen;	
+}
+#Thirdpart{
+	 background-image:url('lego.jp');
+}
+#Thirdpartleft{
+	 height:390px; width:695px; background-color:gree; float:left;
+}
+#Thirdpartright{
+	 height:390px; width:640px; background-color:yello; float:left;
+}
+#Thirdpartleftp{
+	font-size:40px; color:white; padding-top:20px; padding-left:185px; font-family:corbel; font-weight:800;
+}
+#Thirdpartleftpp{
+	font-size:20px; color:white; padding-left:190px; font-family:corbel; font-weight:800;
+}
+#button{
+	 height:40px; width:145px; background-color:#c00; opacity:0.; font-size:18px; color:white;
+	 border:none; margin-left:200px; font-family:Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, serif;
+	 font-weight:800; margin-top:20px; border-radius:2px;
+}
+#button:hover{
+	background-color:yellowgreen;
+	color:red;
+	border:1px solid maroon;
+}
+#circleA{
+	height:220px; width:220px; background-color:pink; border-radius:150px; margin-top:20px; margin-left:140px;
+}
+#circleimgA{
+	height:220px; width:220px; border-radius:150px; 
+}
+#circleB{
+	height:180px; width:180px; float:left; background-color:pink; border-radius:150px; margin-top:-70px; margin-left:130px;
+}
+#circleimgB{
+	 height:180px; float:left; width:180px; border-radius:100px;
+}
+#circleC{
+	height:160px; width:160px; float:left; background-color:pink; border-radius:150px; margin-left:35px; margin-top:-190px;
+}
+#circleimgC{
+	height:160px; float:left; width:160px; border-radius:150px; margin-left:0px; margin-top:0px;
+}
+
+#features{
+	height:470px; width:1345px; background-color:#c00;
+}
+#featuresleft{
+	height:455px; width:310px; background-color:cya; float:left; margin-left:200px;
+}
+#featuresleftA{
+	 height:60px; width:310px; background-color:blu; margin-top:10px; padding-top:10px;
+}
+#featuresleftA p{
+	font-size:30px; color:white; font-family:cooper; font-weight:800px; margin-top:-2px; 
+	font-family:Elephant;
+}
+
+#featuresleftB{
+	 height:150px; width:310px; background-color:skyblue; margin-top:-15px; 
+}
+#featuresleftBImg{
+	  height:170px; width:310px; 
+}
+#featuresleftC{
+	 height:140px; width:310px; background-color:orang; margin-top:15px; 
+}
+#featuresleftC p{
+	 font-size:17px; color:white; padding-top:10px;
+}
+#featuresleftD{
+	 height:85px; width:310px; background-color:yello; margin-top:0px; 
+}
+#btn{
+	 height:40px; width:145px; background-color:#f60; opacity:0.9; font-size:18px; color:white;
+	 border:none; margin-left:5px; font-family:corbel; font-weight:800; margin-top:15px; border-radius:2px;
+}
+#btn:hover{
+	background-color:yellowgreen;
+	color:red;
+	border:2px solid maroon;
+}
+#btnA{
+	 height:40px; width:145px; background-color:#08f; opacity:0.9; font-size:18px; color:white;
+	 border:none; margin-left:5px; font-family:corbel; font-weight:800; margin-top:15px; border-radius:2px;
+}
+#btnA:hover{
+	background-color:yellowgreen;
+	color:red;
+	border:2px solid maroon;
+}
+#btnB{
+	 height:40px; width:145px; background-color:#3a0; opacity:0.9; font-size:18px; color:white;
+	 border:none; margin-left:5px; font-family:corbel; font-weight:800; margin-top:15px; border-radius:2px;
+}
+#btnB:hover{
+	background-color:yellowgreen;
+	color:red;
+	border:2px solid black;
+}
+#featurescenter{
+	height:455px; width:310px; background-color:khak; float:left; margin-left:20px;
+}
+#featuresright{
+	height:455px; width:310px; background-color:gra; float:left; margin-left:20px;
+}
+
+#babyouter{
+	height:400px; width:1345; background-color:WHITE;
+}
+#babyinner{
+	 height:400px; width:1225; background-color:yello; margin-left:110px;
+}
+#babyinner{
+	background-image:url('baby.jpg');
+	background-repeat:no-repeat;
+	background-size:cover
+}
+
+#babyleft{
+	height:395px; width:680px; background-color:cya; margin-left:85px;
+}
+#babyleftTOP{
+	height:130px; width:680px; background-color:RE; float:left;
+}
+#babyleftTOPp{
+      font-size:55px; width:800px; color:#09f; padding-left:20px; margin-top:20px; 
+	  font-family:Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif;
+}
+#babyleftTOPpp{
+      font-size:53px;  color:#09f; padding-left:20px; margin-top:-35px; padding-top:20px;
+	  font-family:Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif;
+}
+
+#babyleftCENTER{
+	height:130px; width:680px; background-color:yello; float:left; 
+}
+#babyleftCENTERp{
+	font-size:22px; color:#666; padding-left:20px; padding-top:23px;
+}
+#babyleftBOTTOM{
+	height:130px; width:680px; background-color:pin; float:left;
+}
+#btnC{
+	 height:40px; width:145px; background-color:#690; opacity:0.9; font-size:18px; color:white;
+	 border:none; margin-left:25px; font-family:corbel; font-weight:800; margin-top:20px; border-radius:2px;
+}
+#btnC:hover{
+	background-color:yellowgreen;
+	color:red;
+	border:3px solid black;
+}
+
+#teachersteam{
+	   height:70px; width:1045px; background-color:orange; margin-top:1px; padding-left:20px; 
+}
+#teachersteam p{
+	font-size:45px; color:white; padding-left:280px; margin-left:0px; padding-top:10px; 
+	font-family:Elephant; font-weight:bold 800;
+}
+#teachers{
+	height:320px; width:1345; background-color:orange; margin-left:0px;
+}
+#teachersA{
+	height:320px; width:245px; background-color:orange; margin-left:210px; border-right:2px solid gree; float:left;
+}
+#teachersAA{
+	height:320px; width:245px; background-color:orange; margin-left:0px; border-right:2px solid gree; float:left;
+}
+#teachersimg{
+	height:200px; width:200px; margin-left:25px; border-radius:95px; margin-top:5px;
+}
+#teachersAp{
+	font-size:23px; color:white; padding-top:10px; margin-left:25px;
+}
+#teachersBp{
+	font-size:17px; color:white; padding-top:5px; margin-left:25px;
+}
+
+
+#footer{
+	height:160px; width:1345px; background-color:#09f;
+}
+#footerleft{
+	 height:160px; width:500px; background-color:gree; float:left;
+}
+#footerleftp{
+	 font-size:65px; color:white;  padding-top:10px; font-weight:800; font-family:Elephant; 
+	 padding-left:10px; padding-left:220px;
+}
+#footerleftpp{
+	 font-size:18px; color:white;  margin-top:-10px; font-weight:800; font-family:corbel; 
+	  padding-left:220px;
+}
+#numberp{
+	 font-size:23px; color:white;  margin-top:10px; font-weight:100; font-family:Elephant; 
+	  padding-left:220px;
+}
+#footerright{
+	 height:160px; width:8335x; background-color:re; float:left;
+}
+#footerrightTOP{
+	 height:65px; width:835px; background-color:pin; 
+}
+#footerrightimg{
+	 height:50px; width:50px; padding-left:503px;
+}
+#footerrightimgA{
+	 height:50px; width:50px; padding-left:3px; padding-top:20px;
+}
+#footerrightBOTTOM{
+	 height:90px; width:835px; background-color:yello;
+}
+#manuesp{
+	font-size:24px; color:white; padding-left:120px; float:left; padding-top:20px;
+}
+#manuesp:hover{
+	color:green;
+}
+#manuespp{
+	font-size:23px; color:white; padding-left:35px; float:left; padding-top:20px;
+}
+#manuespp:hover{
+	color:green;
+}
+#copyright{
+	font-size:20px; color:white; padding-left:425px; padding-top:50px;
+}

@@ -1,0 +1,197 @@
+
+#navbar-inverse{
+	background-color:white; border-bottom:1px solid lavender; box-shadow:0px 0px 10px 0px;
+	
+}
+#navbar-header{
+	background-color:re; margin-left:30px; 
+}
+#header{
+  height:80px; width:300px; background-color:purpl;
+}
+#loogin{
+	height:80px; background-color:cya; 
+}
+ #user{
+	 font-size:15px;  padding-top:30px; margin-left:-20px; color:#D9534F;
+ }
+#log{
+	height:auto; width:90px; margin-left:-10px; margin-top:25px; background-color:cya; 
+}
+#log p{
+	font-size:15px; color:#0159BD; font-family:Franklin Gothic Book; padding-top:25px; 
+}
+#RmLine{
+	text-decoration:none;
+}
+#AAA{
+	height:80px; margin:0px; padding:0px;
+}
+#reg{
+	height:80px; background-color:pin; 
+}
+
+#leftA{
+	height:auto; background-color:cya; 
+}
+#leftA img{
+	height:22px; width:22px; margin-left:-14px; margin-top:25px;
+}
+#rightA{
+	height:auto;  background-color:yello; 
+}
+#rightA p{
+	font-size:15px; color:#0159BD;  margin-left:-30px; margin-top:25px;
+}
+#pic{
+	height:65px; width:150px; margin-top:-12px; margin-left:px;
+}
+#color{
+	background:rgba(0,0,0,0.3);
+}
+p
+{
+    color: #fff;
+	font-family:Franklin Gothic;
+}
+.menus
+{
+    color:#D9534F; padding-top:13px; margin-left:-15px;
+	font-family:Franklin Gothic Book; font-size:16px; 
+}
+.menus:hover{
+	color:orange;
+	 text-decoration:none;
+}
+#menus{
+	color:#D9534F; padding-top:13px; margin-left:400px;
+	font-family:Franklin Gothic Book; font-size:16px; 
+}
+#menus:hover{
+	color:orange;
+	 text-decoration:none;
+}
+
+#form{
+	height:500px; background-color:pin; 
+}
+#title{
+	height:80px; background-color:cya; margin-top:90px;
+}
+#title p{
+	font-size:27px; text-align:center; padding-top:45px; color:#666;
+}
+#textboxes{
+	height:335px; background-color:#09;
+}
+
+#formA{
+	height:65px; background-color:lim; margin-top:30px; 
+}
+#formA label{
+	font-size:16px; padding-left:5px; color:#666; font-family:Franklin Gothic Book;
+}
+#formAA{
+	height:35px; box-shadow:1px 1px 0px 0px;
+}
+#plane{
+	height:500px; background-color:purpl; 
+}
+#plane img{
+	height:360px; width:540px; margin-left:70px; margin-top:100px; 
+}
+#items{
+	height:auto; background-color:#333; box-shadow:0px 4px 0px 0px;
+}
+#itemsA{
+	height:auto; background-color:re; 
+}
+#itemsimg{
+	height:auto; background-color:cya; 
+}
+#itemsimg img{
+	height:35px; margin-top:10px;
+}
+#itemsp{
+	height:auto; background-color:orang;
+}
+#itemsp p{
+	font-size:19px; color:white;  padding-top:15px; margin-left:-18px;
+}
+#paragraph{
+	height:auto; background-color:yello;  margin-top:-50px; 
+}
+#paragraph p{
+	font-size:14px; color:white; margin-left:-14px; padding-top:16px; 
+}
+
+#ThirdArea{
+	height:auto; background-color:skyblu; margin-top:10px;
+}
+#ThirdAreaInner{
+	height:160px; background-color:blu; margin-top:70px; border-bottom:1px solid #DCDCDC;
+}
+#ThirdAreaInnerimg{
+	height:100px; background-color:cya; 
+}
+#ThirdAreaInnerimg img{
+	height:100px; width:80px; margin-top:px; 
+}
+
+#ThirdAreaInnerimgimg{
+	height:100px; background-color:cya; 
+}
+#ThirdAreaInnerimgimg img{
+	height:90px; width:45px; margin-left:25px; 
+}
+
+#ThirdAreaInnertext{
+	height:100px; background-color:yello; border-right:1px solid #DCDCDC;
+}
+#ThirdAreaInnertextY{
+	height:100px; background-color:yello;
+}
+#textUp{
+	font-size:17px; color:#E24846; padding-top:5px;
+}
+#textmid{
+	font-size:16px; color:black; margin-top:-12px;
+}
+#textdown{
+	font-size:15px; color:#666; margin-top:-12px;
+}
+
+#footer{
+	height:auto; background-color:pin;
+}
+#footerleft{
+	height:auto; background-color:cya; margin-top:40px;
+}
+#footerup{
+	font-size:22px; color:black; padding-top:20px;
+}
+#footerdown{
+	font-size:15px; color:#999; font-family:Franklin Gothic book;
+}
+#boxline{
+	height:10px; background-color:lavender;
+}
+#links{
+	height:75px; background-color:cya;
+}
+#linksleft{
+	height:auto; background-color:pin;
+}
+#linksleftA{
+	height:25px; background-color:skyblu; margin-top:20px; text-decoration:none;
+}
+#linksleftA p{
+	font-size:16px; color:#999; margin-left:px; text-decoration:none;
+}
+#linksright{
+	height:65px; background-color:yello; margin-top:10px;
+}
+#linksright img{
+	margin-top:15px; margin-left:20px;
+}
+

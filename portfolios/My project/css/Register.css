@@ -1,0 +1,158 @@
+
+#navbar-inverse{
+	background-color:white; border-bottom:1px solid lavender; box-shadow:0px 0px 10px 0px;
+	
+}
+#navbar-header{
+	background-color:re; margin-left:30px; 
+}
+
+#header{
+  height:70px;  background-color:re;
+}
+#loogin{
+	height:70px; background-color:cya; 
+}
+ #user{
+	 font-size:15px;  padding-top:23px; margin-left:-20px;
+ }
+#log{
+	height:auto; width:90px; margin-left:-10px; margin-top:20px; background-color:cya; 
+}
+#log p{
+	font-size:15px; color:#0159BD; font-family:Franklin Gothic Book; padding-top:20px; 
+}
+#RmLine{
+	text-decoration:none;
+}
+#AAA{
+	height:70px; margin:0px; padding:0px;
+}
+#reg{
+	height:70px; background-color:pin; 
+}
+
+#headerA{
+  height:auto; 
+}
+#leftA{
+	height:auto; background-color:cya; 
+}
+#leftA img{
+	height:22px; width:22px; margin-left:-14px; margin-top:20px;
+}
+#rightA{
+	height:auto;  background-color:yello; 
+}
+#rightA p{
+	font-size:15px; color:#0159BD;  margin-left:-30px; margin-top:20px;
+}
+#pic{
+	height:56px; width:155px; margin-top:-12px;
+}
+#color{
+	background:rgba(0,0,0,0.3);
+}
+p
+{
+    color: #fff;
+	font-family:Franklin Gothic Book;
+}
+.menus
+{
+	color:#0159BD; padding-top:8px; padding-left:2px;
+    font-family:Franklin Gothic Book; font-size:16px; 
+}
+.menus:hover{
+	color:orange;
+	 text-decoration:none;
+}
+
+#dealpage{
+	background-color:#006FAF; height:70px; width:55px; font-size:15px; margin-left:-10px;
+		margin-bottom:-15px; margin-top:-15px; color:#fff; text-align:center; padding-top:20px;	
+}
+#dealpage:hover{
+	background-color:white; color:#0159BD; font-size:16px;
+}
+
+
+#textbtn{
+	width:100%; height:50px;
+}
+#submit{
+	width:100%; height:50px; font-size:19px;
+}
+#site{
+	color:white;
+}
+#site p{
+	color:white; padding-top:10px; font-size:28px; font-family:Franklin Gothic Book; font-style:italic;
+}
+#sit{
+	color:white;
+}
+#sit p{
+	color:white; margin-top:-10px; font-size:15px; margin-bottom:30px;
+}
+#mainup{
+	height:auto; margin-top:120px; background:rgba(0,0,0,0.3);
+	border-radius:2px 2px 0px 0px; border-bottom:1px solid white;	
+}
+#mainup p{
+	font-size:40px; padding-top:30px; color:white; text-align:center; font-style:italic;
+}
+#maindown{
+	height:600px; background:rgba(0,0,0,0.3); 
+}
+#space{
+	margin-top:15px;
+}
+#tex{
+	text-align:center;
+}
+#text{
+	text-decoration:none;
+}
+#text p{
+	font-size:17px; color:white; padding-top:10px; margin-left:-80px; padding-left:65px;
+}
+
+
+#footer{
+	height:auto; background-color:#3F3F3F; margin-top:25px;
+}
+#footerinner{
+	height:auto; background-color:cya; 
+}
+#footerA{
+	height:auto; background-color:#3F3F3F; 
+}
+#footerAA{
+	height:auto; background-color:#3F3F3F; 
+}
+#upp{
+	font-size:22px; color:#FFFFFF; margin-left:-10px; padding-top:10px; 
+}
+#down{
+	font-size:15px; color:#FFFFFF; margin-left:-10px; 
+}
+#rights{
+	height:45px; background-color:black; 
+}
+#rights p{
+	font-size:15px; text-align:center; padding-top:9px; color:white;
+}
+#links{
+	height:45px; background-color:black; 
+}
+#links img{
+	height:35px; width:35px; margin-left:20px; margin-top:10px;
+}
+#marquee{
+	height:60px; background-color:white;
+}
+#img{
+	margin-top:-5px; height:60px;
+}
+

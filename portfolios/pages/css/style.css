@@ -1,0 +1,432 @@
+
+
+#fullpage{
+   height:2350px; width:1200px; background-color:lavender; margin-left:70px; margin-top:-10px;
+}
+#header{
+  height:70px; width:1200px; background-color:white;
+}
+#headerA{
+  height:70px; width:600px; background-color:PIN; float:left;
+}
+#headerAa{
+     font-size:35px; color:black; font-weight:800; padding-top:20px;font-family:Corbel;  padding-left:150px; float:left;
+}
+#headerAb{
+     font-size:35px; color:#09f;  float:left; padding-top:20px; font-weight:800; font-family:Corbel; 
+}
+#headerB{
+  height:70px; width:600px; background-color:skyblu; float:left;
+}
+#home{
+    height:65px; width:80; background-color:blu; border-bottom:3px solid #09f; float:left;
+}
+#home p{
+    font-size:17px; font-weight:500px; float:left;font-weight:250px; padding-top:6px;
+    	padding-left:15px; float:left; color:#09f;
+}
+#home:hover p{
+	color:yellowgreen;
+	}
+#headerleft{
+    height:65px; width:80; background-color:blu; border:1px solid blac; float:left;
+}
+#headerleft p{
+    font-size:17px; float:left; padding-top:5px; padding-left:12px; float:left; color:black;
+}
+#headerleft:hover p{
+	color:yellowgreen;
+}
+
+
+
+#secondinner{
+	 height:320px; width:1200px; background-color:yellow;
+}
+
+
+#secondleft{
+     height:300px; width:650px; background-color:re; float:left;
+}
+#secondleftimg{
+     height:300px; width:650px; background-color:re; float:left;
+}
+#secondright{
+     height:300px; width:550px; background-color:blu; float:left;
+}
+#secondtop{
+     height:110px; width:550px; background-color:pin; 
+}
+#secondA{
+     height:25px; width:300px; background-color:#cc; margin-left:200px;
+}
+#secondB{
+     height:50px; width:260px; background-color:#09f;  margin-left:100px;
+}
+#secondp{
+     font-size:30px; color:white; padding-left:30px; padding-top:5px; font-family:Corbel; margin-top:50px;
+}
+#secondbottom{
+     height:190px; width:550px; background-color:yello;  
+	 }
+#secondbottomUP{ 
+     height:80px; width:550px; background-color:orang; 
+}
+#loremipsump{  
+      margin-top:0px; font-size:20px; padding-left:20px; padding-top:35px; color:#999;
+}
+#loremipsumpp{  
+      margin-top:-20px; font-size:20px; color:#999; padding-left:70px; padding-top:0px;
+}
+#NEXT{  
+        margin-top:-70px; margin-left:520px; margin-right:0px; border-radius:2px; height:35px; width:30px; 
+	   background-color:#999; float:left; opacity:0.8;
+}
+#NEXTp{  
+       font-size:25px; color:white; float:left; margin-top:2px; margin-left:10px; font-family:cooper;
+}
+#NEXT:hover{
+      background-color:#09f; 
+}
+#secondbottomDOWN{
+     height:70px; width:550px; background-color:#99;  
+}
+#button1{
+     height:30px; width:135px; background-color:#09f; margin-left:165px; padding-left:8px; 
+	 font-family:Corbel; border:none; font-size:17px; color:white; margin-top:20px;
+}
+#button1:hover{
+    background-color:lavender; 
+	color:#09f; 
+	font-size:20px;
+	border:none;
+}
+
+
+
+#third{
+     height:330px; width:1200px; background-color:white; padding-top:40px;
+}
+#third{
+background-image:url('.jpg');
+}
+
+#thirdOne{
+     height:280px; width:310px; background-color:cya; margin-left:110px; float:left;
+}
+#thirdOneA{
+     height:162px; width:310px; background-color:gree;  
+}
+#thirdOneimgAA{
+     height:250px; width:310px;  
+}
+
+#thirdOneimg{
+     height:162px; width:310px;  
+}
+
+.dropdown{
+	display:inline-block;
+	
+}
+.dropdown-content{
+	display:none;
+	position:absolute;
+	
+}
+.dropdown:hover .dropdown-content{
+	display:block;
+}
+
+
+
+#thirdOneB{
+     height:95px; width:310px; background-color:yello; 
+}
+#paragraphA{
+     font-size:25px; color:black; font-family:Corbel; margin-top:0px; padding-top:12px; padding-left:15px;
+}
+#paragraphB{
+    font-size:15px; color:black; font-family:Corbel; margin-top:-21px; padding-left:5px;
+}
+#paragraphC{
+    font-size:15px; color:black; font-family:Corbel; margin-top:-17px; padding-left:50px;
+}
+
+#thirdOneC{
+     height:32px; width:310px; background-color:#cc; 
+}
+#thirdOneCC{
+     height:30px; width:135px; background-color:#09f; margin-left:80px; padding-left:8px; 
+	 font-family:Corbel; border:none; font-size:17px; color:white; border-radius:5px;
+}
+#thirdOneCC:hover{
+    background-color:white; 
+	color:#09f; 
+	font-size:20px;
+	border:none;
+}
+#thirdTwo{
+     height:280px; width:310px; background-color:re; margin-left:30px; float:left;
+}
+#paragraphTwo{
+     font-size:25px; color:black; font-family:Corbel; margin-top:0px; padding-top:12px; padding-left:30px;
+}
+#thirdThree{
+     height:280px; width:310px; background-color:skyblu; margin-left:30px; float:left;
+}
+#paragraphThree{
+     font-size:25px; color:black; font-family:Corbel; margin-top:0px; padding-top:12px; padding-left:75px;
+}
+
+
+#Arrival{
+     height:148px; width:1200px; background-color:lavender; margin-top:px;
+}
+#ArrivalTop{
+     height:70px; width:350px; margin-left:425px; border-bottom:2px dotted black;
+}
+#font:hover{
+    color:yellow;
+}
+
+#ArrivalTop p{
+     font-size:25px; color:#333; padding-left:20px; padding-top:25px; margin-top:0px;
+}
+#ArrivalBottom{
+     height:75px; width:650px; background-color:skyblu; margin-left:280px;
+}
+#ArrivalBottom p{
+     font-size:19px; color:#666; padding-left:5px; padding-top:22px; margin-top:0px;
+}
+
+
+
+
+#RingsCollection{
+       height:430px; width:1198x; background:linear-gradient(lavender, white); border-bottom:1px solid #ccc;   
+}
+#RingsCollectionA{
+       height:388px; width:230px; background-color:white; float:left; margin-left:110px;  border:1px solid #ccc;  
+}
+#image{
+      height:180px; width:220px; background-color:re; padding-left:5px;
+}
+#name{
+     height:40px; width:223px; font-family:Century Schoolbook; font-weight:800;
+	 font-size:16px; margin-top:-19px; border-bottom:2px dotted black; margin-left:5px; padding-top:0px;
+}
+#Description{
+     height:60px; width:215px; margin-left:10px; margin-top:-3px;
+}
+#Description p{
+       font-size:15px; font-weight:800; font-weight:500;
+}
+#priceButton{
+     height:55px; width:215px;  margin-left:10px;
+}
+#pricebtn{
+     height:28px; width:100px; background-color:#09f;  margin-left:50px; float:left; border-radius:4px;
+	 font-family:Corbel; border:none; font-size:16px; color:white; margin-top:20px; margin-top:12px;
+}
+#pricebtn:hover{
+    background-color:#ccc; 
+	color:green; 
+	font-size:18px;
+	font-weight:700;
+	border:none;
+}
+#priceButton p{
+    font-size:18px; float:left; font-weight:300; font-family:Cooper; margin-top:10px;
+}
+#priceButton:hover p{
+    color:green;
+	border:none;
+}
+#Stars{
+     height:40px; width:228px; background-color:gre; margin-top:0px; margin-left:0px; border-top:1px solid #ccc;
+}
+#strA{
+     height:40px; width:108px; background-color:re; float:left; margin-left:8px; padding-left:0px;
+}
+#stars p{
+     font-size:20px; padding-left:5px; margin-top:8px;
+}
+
+
+
+
+#iimmgg{
+       height:30px; width:20px; float:left; margin-top:10px;
+}
+#strB{
+     height:40px; width:108px; background-color:gree; float:left;
+}
+#starimg{
+     height:20px; width:14px; float:left; margin-left:35px; margin-top:8px;
+}
+#starimgA{
+     height:20px; width:14px; float:left; padding-left:0px; margin-top:8px;
+}
+
+#RingsCollectionB{
+       height:388px; width:230px; background-color:white; float:left; margin-left:27px; border:1px solid #ccc;    
+}
+#RingsCollectionC{
+       height:388px; width:230px; background-color:white; float:left; margin-left:27px; border:1px solid #ccc;
+}
+#RingsCollectionD{
+       height:388px; width:230px; background-color:white; float:left; margin-left:27px; border:1px solid #ccc;  
+}
+
+
+#footer{
+    height:90px; width:1200px; background-color:#999; opacity:0.8;  margin-top:-5px;
+}
+#footerleft{
+    height:90px; width:618px; background-color:yello; float:left; border-right:1px solid #ccc; 
+}
+#footerleftA{
+    height:100px; width:150px; background-color:re; float:left; 
+}
+#footerleftimg{
+    height:90px; width:100px; padding-left:50px;
+}
+#footerleftB{
+    height:100px; width:467px; background-color:pin; float:left; 
+}
+#footerleft p{
+        font-size:17px; padding-top:20px;
+}
+#footerright{
+    height:100px; width:580px; background-color:gree; float:left;
+}
+#footerrightA{
+    height:100px; width:300px; background-color:CYA; float:left;
+}
+#footerright p{
+    font-size:17px; color:#666; float:left; padding-top:20px;
+}
+#footerrightB{
+    height:100px; width:280px; background-color:lim; float:left;
+}
+#footerrightimg{
+    height:50px; width:50px; float:left; padding-top:25px;
+}
+
+
+
+#contactArea{
+   height:320px; width:1200px; background-color:lavender; 
+}
+#contactAreaA{
+   height:315px; width:250px; background-color:lavender; float:left; margin-left:85px;
+}
+#contactAreaAA{
+      font-size:30px; color:black; float:left; padding-left:50px; padding-top:30px; font-family:cooper;
+}
+#paragh{
+      font-size:20px; color:#333; padding-top:80px;
+}
+#contactAreaBB{
+      font-size:30px; color:#09f; float:left; padding-top:30px; font-family:cooper;
+}
+
+
+#contactAreaB{
+   height:315px; width:250px; background-color:lavender; float:left; margin-left:20px; font-weight:700;
+}
+#contactAreaTOP{
+      height:70px; width:250px; background-color:lim;
+}
+#samra p{
+   font-size:2px; color:#999; padding-top:30px; margin-top:0px;
+}
+#contactAreaCENTER{
+    height:120px; width:250px; background-color:gree;
+}
+#ONE{
+    height:120px; width:90px;  background-color:greenyello; float:left;
+}
+#ONEimg{
+     height:100px; width:90px; padding-top:10px;
+}
+#TWO{
+    height:120px; width:160px;  background-color:yellowgree; float:left;
+}
+#TWOTWOp{
+     font-size:20px; color:#333; font-family:corbel; font-weight:900;
+}
+#TWOTWOimg{
+     height:25px; width:20px; float:left; padding-left:4px; margin-top:-15px;
+}
+#TWOTWOpricep{
+    font-size:21px; color:#09f; padding-left:4px; padding-top:15px;
+}
+#TWOTWOpricep:hover{
+   color:green;
+}
+
+
+#contactAreaBOTTOM{
+     height:120px; width:250px; background-color:khak;   
+}
+
+
+
+#contactAreaC{
+   height:315px; width:250px; background-color:blu; float:left; margin-left:20px;font-weight:700;
+}
+#contactAreaCa{
+     font-size:30px; color:#333; padding-top:25px;
+}
+#contactAreaCb{
+      font-size:19px; color:#333; padding-top:10px;
+}
+#contactAreaCd{
+      font-size:19px; color:#333; padding-top:20px;
+}
+#contactAreaCe{
+      font-size:20px; color:#333; padding-top:20px;
+}
+
+
+
+#contactAreaD{
+   height:315px; width:250px; background-color:darkkhak;float:left; margin-left:20px;
+}
+#contactAreaDa{
+      font-size:27px; color:#333; padding-top:28px; padding-left:49px;
+}
+#form{
+     height:200px; width:250px; background-color:blu;
+}
+#btnName{
+      height:40px; width:210px; border:none; font-size:15px; padding-left:15px; margin-top:10px; margin-left:60px;
+}
+#btnEmail{
+     height:40px; width:210px; border:none; font-size:15px; padding-left:15px; margin-top:15px; margin-left:60px;  
+}
+#btnSubcribe{
+      height:40px; width:110px; background-color:#09f; border:none; color:white; margin-top:15px; margin-left:156px;
+}
+#btnSubcribe:hover{
+      background-color:#999;
+	  color:green;
+}
+
+
+#black{
+     height:65px; width:1200px; background-color:#999; margin-top:10px;  
+}
+
+#blackA{
+     height:65px; width:600px; background-color:khak; float:left;  
+}
+#black P{
+     font-size:20px; color:navyblue; float:left; padding-left:90px;
+}
+
+#blackB{
+     height:65px; width:600px; background-color:pin; float:left; 
+}

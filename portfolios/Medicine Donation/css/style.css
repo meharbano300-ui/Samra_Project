@@ -1,0 +1,493 @@
+
+
+#up{
+	height:110px; width:100%; background-color:re; border:none;
+}
+#left{
+	height:110px; width:600px; background-color:pin; border:none; float:left;
+}
+#leftA{
+	background-color:gree; height:105px; width:250px; float:left;
+}
+#leftA img {
+	 height:70px; padding-left:170px; margin-top:16px;
+}
+#leftB{
+	background-color:orang; height:11px; width:350px; float:left;
+}
+#leftBup{
+	background-color:purpl; height:55px; width:350px; 
+}
+#leftBup p{
+	cursor:pointer; margin-left:10px; padding-top:25px; font-size:20pt; 
+	font-family: Chaparral Pro Light; text-transform:uppercase;
+	color:#056eb0; font-weight:700;
+}
+#leftBdown{
+	background-color:gra; height:50px; width:350px;
+}
+#leftBdown p{
+	margin-left:73px; padding-top:5px; font-size:11pt;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	color:#056eb0;font-weight:700;
+}
+#right{
+	height:100px; width:400px; background-color:skyblu; border:none; float:left;
+}
+#log-in{
+	 height:43px; width:100px; color:white;  float:left; 
+	margin-top:30px; margin-left:200px; background:(0,0,0,0.1);
+}
+#log-in p{
+	font-size:18px; color:#0773ac; font-family:Franklin Gothic ; padding-top:9px; margin-left:12px; float:left;
+}
+#log-out{
+	 height:43px; width:100px;  color:white;  float:left;
+	margin-top:30px; background:(0,0,0,0.1);
+}
+#log-out p{
+	font-size:18px; color:white; color:#0773ac; font-family:Franklin Gothic ; padding-top:9px; margin-left:10px; float:left;
+}
+#user{
+	 font-size:16px; padding-top:14px; color:white;  float:left; color:#0773ac; 
+}
+#zz{
+	height:100px; width:300px; background-color:lim; float:left;  
+}
+#search{
+	height:38px; width:180px; float:left; margin-top:35px; margin-left:20px;
+	font-size:14px; border-radius:4px 0px 0px 4px; 
+}
+#SB{
+	height:38px; width:85px;float:left; margin-left:-5px; border-radius:0px 4px 4px 0px;
+	margin-top:35px; border:1px solid brown; 
+}
+#navbar-inverse{
+	   background-color:#c3f6c5; border:1px solid black;  border-radius:0px;	
+}
+#navbar-header{
+	background-color:orang; margin-left:170px; height:50px; margin-top:-4px;
+}
+#brr{
+	height:50px; width:100%;  z-index: 1; content: ""; background:rgba(0,0,0,0.9);
+}
+#header{
+    height:30px; width:125px;  background-color:re; 
+}
+#loogin{
+	height:30px; width:125px; background-color:cya; margin-left:-20px;
+}
+#resource{
+  height:30px;  background-color:skyblu; width:210px;
+}
+#resources{
+	height:30px; width:220px; background-color:pin; padding-top:10px; margin-left:-40px;
+}
+#about{
+  height:30px; width:120px; background-color:blu;
+}
+#abouts{
+	height:40px; width:160px; background-color:darkkhak; padding-top:10px; margin-left:-30px;
+}
+#logg{
+	height:30px; width:160px; background-color:yellowgree; margin-left:-15px;
+}
+#logg p{
+	font-size:15px; color:#0159BD; font-family:Franklin Gothic Book; padding-top:15px; 
+}
+#media{
+  height:30px;  background-color:red; width:120px;
+}
+#medi{
+	height:30px; width:130px; background-color:cya; 
+}
+#mnu{
+	color:black;
+}
+#log{
+	height:30px; width:130px; margin-top:10px; background-color:gree; padding-left:-2px;
+}
+#log p{
+	font-size:15px; color:#0159BD; font-family:Franklin Gothic Book; padding-top:25px; 
+}
+#RmLine{
+	text-decoration:none;
+}
+.menus
+{
+	color:white; padding-top:15px; padding-left:5px;
+	font-family:Franklin Gothic ; font-size:16px; text-decoration:none;
+}
+.menu
+{
+    color:#0159BD; padding-top:15px; padding-left:5px; margin-top:70px;
+	font-family:Franklin Gothic ; font-size:16px; text-decoration:none;
+}
+.menus:hover{
+	color:orange; text-decoration:none;
+}
+
+.ftco-cover-1 {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative; }
+ 
+.owl-carousel-wrapper {
+  height: 80vh;
+  min-height: 600px;
+  position: relative; }
+  .ftco-cover-1, .ftco-cover-1 .container > .row {
+    height: 50vh;
+    min-height: 500px; }
+    
+.slide-one-item .owl-dots, .owl-1 .owl-dots, .owl-2 .owl-dots, .owl-3 .owl-dots {
+  width: 100%;
+  text-align: center; }
+  .slide-one-item .owl-dots .owl-dot, .owl-1 .owl-dots .owl-dot, .owl-2 .owl-dots .owl-dot, .owl-3 .owl-dots .owl-dot {
+    display: inline-block; }
+    .slide-one-item .owl-dots .owl-dot > span, .owl-1 .owl-dots .owl-dot > span, .owl-2 .owl-dots .owl-dot > span, .owl-3 .owl-dots .owl-dot > span {
+      width: 8px;
+      height: 8px;
+      display: inline-block;
+      border-radius: 50%;
+      margin: 3px; }
+	  
+    .slide-one-item .owl-dots .owl-dot.active > span, .owl-1 .owl-dots .owl-dot.active > span, .owl-2 .owl-dots .owl-dot.active > span, .owl-3 .owl-dots .owl-dot.active > span {
+      width: 8px;
+      height: 8px;
+      background: #00a651; }
+
+.owl-1 .owl-dots, .owl-3 .owl-dots {
+  bottom: 70px;
+  position: relative; }
+  .owl-1 .owl-dots .owl-dot > span, .owl-3 .owl-dots .owl-dot > span {
+    background: #fff; }  
+	  
+.box-92819 {
+  z-index: 2;
+  position: absolute;
+  top: 40%;
+  left: 33%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  max-width: 700px; }
+  .box-92819 h1 {
+    font-weight: 900 !important;
+    font-size: 6rem;
+	color:#263040;
+    font-family: "Mansalva", cursive !important; }
+
+.text-cursive {
+  font-family: "Mansalva", cursive !important; }
+#batn{
+	height:50px; width:140px; background-color:brown; color:white; border:none;
+	font-size:17px; margin-left:5px; margin-top:30px; border-radius:4px; 
+}
+
+#boxes{
+	height:860px; width:100%; background-color:cya; margin-top:-80px;
+}
+#baar{
+	height:150px; width:100%; background-color:yellowgree;
+}
+#baar h1{
+	font-size:40px; font-family:Comic Sans MS; font-weight:800; 
+	padding-left:120px; padding-top:40px;
+}
+#baar p{
+	font-size:18px;  padding-left:500px; margin-top:-45px; font-family:Franklin Gothic Book; 
+}
+#box{
+	height:680px; width:100%; background-color:blu;
+}
+#box1{
+	height:590px; width:350px; background-color:gree; margin-left:120px; float:left;
+	box-shadow:1px -2px 5px #a1a5a8;
+}
+#imag{
+	height:270px; width:360px; background-color:darkkhak; 
+}
+#imag img{
+	height:270px; width:350px;  
+}
+#bordr{
+	height:7px; width:350px; background-color:#a5a5a5; 
+}
+#bordr1{
+	height:7px; width:280px; background-color:brown; float:left; border-radius:0px 15px 15px 0px;
+}
+#bordr2{
+	height:7px; width:70px; background-color:#a5a5a5; float:left;
+}
+#ngo{
+	height:150px; width:330px; background-color:yello; margin-left:10px; border-bottom:1px solid #eeeeee;
+}
+#School{
+	height:35px; width:90px; background-color:brown; border:none; border-radius:4px; 
+	margin-left:10px; margin-top:10px; font-size:15px; color:white;
+}
+#ngo h1{
+	font-size:16pt; padding-left:10px; font-family:tahoma;
+}
+#donat{
+	height:60px; width:330px; background-color:lim; margin-left:10px; margin-top:10px; 
+	border-bottom:1px solid #eeeeee;
+}
+#donat h1{
+	font-size:18px; padding-top:20px; margin-top:-10px; padding-left:10px; color:#555555;
+	font-family:Franklin Gothic Book;
+}
+#img1{
+	height:21px; width:23px; margin-left:200px; margin-top:-35px;
+}
+#img2{
+	height:21px; width:23px; margin-left:225px; margin-top:-35px;
+}
+#img3{
+	height:21px; width:23px; margin-left:250px; margin-top:-35px;
+}
+#img4{
+	height:21px; width:23px; margin-left:275px; margin-top:-35px;
+}
+#img5{
+	height:21px; width:23px; margin-left:300px; margin-top:-35px;
+}
+#naam{
+	height:100px; width:330px; background-color:purpl; margin-left:10px;
+}
+#naam img{
+	 height:60px; width:60px; border-radius:50px; margin-left:10px; margin-top:20px;
+}
+#naam h1{
+	font-size:17px; padding-left:80px; margin-top:-40px; color:#555555;
+	font-family:Franklin Gothic Book;
+}
+#box2{
+	height:590px; width:350px; background-color:re; margin-left:35px; float:left;
+	box-shadow:1px -2px 5px #a1a5a8;
+}
+#bordr3{
+	height:7px; width:280px; background-color:#3b7d1c; float:left; border-radius:0px 15px 15px 0px;
+}
+#health{
+	height:35px; width:90px; background-color:#3b7d1c; border:none; border-radius:4px; 
+	margin-left:10px; margin-top:10px; font-size:15px; color:white;
+}
+#box3{
+	height:590px; width:350px; background-color:re; margin-left:30px; float:left;
+	box-shadow:1px -2px 5px #a1a5a8;
+}
+#bordr4{
+	height:7px; width:280px; background-color:#de9400; float:left; border-radius:0px 15px 15px 0px;
+}
+#live{
+	height:35px; width:90px; background-color:#de9400; border:none; border-radius:4px; 
+	margin-left:10px; margin-top:10px; font-size:15px; color:white;
+}
+	
+
+#capsule{
+	 height:560px; width:100%; background-color:re; 
+	 }
+#leftsidepic{
+	  height:570px; width:230px; margin-left:1060px; margin-top:-15px;
+}
+#back{
+	background-color:lim; height:500px; width:1340px; margin-top:-510px;
+}	
+#imgleft{
+	background-color:gree; height:500px; width:680px; float:left;
+}
+#imgleft img{
+	 height:550px; width:530px; margin-left:50px; float:left; margin-top:-100px;
+}
+
+#imgright{
+	background-color:re; height:500px; width:450px; float:left;
+}
+#pic{
+	 height:500px; width:500px; 
+}	
+#imgrightA{
+	background-color:cya; height:140px; width:600px;
+}
+#imgrightAleft{
+	background-color:blu; height:140px; width:600px;
+}
+#imgrightAleft p{
+	font-size:42pt; color:#263040; font-family:Franklin Gothic heavy; padding-top:65px; height:50px; margin-left:-10px;
+}	
+#imgrightB{
+	background-color:purpl; height:130px; width:600px;
+}
+#imgrightB p{
+	font-size:30pt; color:#263040; font-weight:800; margin-left:8px;
+}
+#imgrightC{
+	background-color:skyblu; height:230px; width:600px;
+}	
+#imgrightC p{
+	font-size:20px; color:#586073; font-family:Franklin Gothic; padding-top:25px; margin-left:13px;
+}		
+	
+#impact{
+	height:700px; width:100%; background-color:lightblu;
+}
+#hd{
+	height:210px; width:100%; background-color:lim;
+}
+#hd img{
+	height:70px; width:100px; margin-left:190px; margin-top:190px;
+}
+#hd h1{
+	font-size:37pt; text-align:center; padding-top:30px; margin-top:-200px; font-weight:700;
+}
+#im{
+	height:450px; width:860px; background-color:gree; float:left; margin-left:220px;
+}
+#im h2{
+	font-size:16px; padding-top:70px; margin-left:100px;
+}
+#im h3{
+	font-size:16px; margin-top:-1px; margin-left:100px;
+}
+#im h1{
+	font-size:20px; margin-top:30px; margin-left:100px; font-weight:700;
+}
+#im1{
+	height:275px; width:860px; background-color:#f5f5f5; margin-top:-20px;
+}
+#im2{
+	height:150px; width:860px; background-color:gra;
+}
+#pact{
+	height:450px; width:200px; background-color:blu; float:left;
+}
+#pact img{
+	height:360px; width:380px; margin-left:-150px; margin-top:120px;
+}
+#botn{
+	height:60px; width:230px; background-color:brown; border:none; font-size:17px; color:white;
+	margin-left:150px; margin-top:50px;
+}
+#boton{
+	height:60px; width:230px; background-color:brown; border:none; font-size:17px; color:white;
+	margin-left:10px; margin-top:50px;
+}	
+
+	
+#donate{
+	 height:500px; width:100%; 
+}
+#upper{
+	 height:500px; width:100%; background: rgba(0,0,0,0.8); 	
+}
+#heading{
+	font-family:Comic Sans MS; font-size:30px; padding-left:18px; padding-top:8px; 
+}
+#upperleft{
+	background-color:cyan; height:380px; width:540px; float:left; margin-top:60px; margin-left:120px; 
+}
+#upperleft img{
+	 height:380px; width:540px; 
+}
+#upperright{
+	background-color:white; height:380px; width:550px; float:left; margin-top:60px; margin-left:30px;
+}
+#frm{
+	height:50px; width:490px; margin-left:20px; margin-top:20px; font-size:16px; color:black; font-family:Franklin Gothic Book;
+}
+#frmm{
+	height:50px; width:490px; margin-left:20px; font-size:16px; font-family:Franklin Gothic Book; 
+}
+#submit{
+	height:45px; width:120px; margin-left:23px; background-color:#00a651; font-size:17px;
+	font-family:Franklin Gothic Book; border:none;
+}	
+	
+#footer{
+	background-color:re; height:160px; width:100%;
+}	
+#footermiddle{
+	background-color:yello; height:160px; width:450px; float:left;
+}
+#footermiddleup{
+	background-color:darkkhak; height:60px; width:450px; float:left; margin-top:20px;
+}
+#footermiddleup p{
+	font-size:25px; font-weight:700; text-align:center; padding-top:15px;
+	font-family: Chaparral Pro Light;
+}
+#footermiddledown{
+	background-color:skyblu; height:90px; width:450px; float:left; border-bottom:1px solid #a29e9e;
+}
+#footermiddledown img{
+	height:40px; width:40px;
+	position:relative;
+	cursor:pointer;
+	transition:ease 6s;
+	left:120px;
+	margin-top:10px;
+}
+#footermiddledown img:hover{
+	height:40px; width:40px; 
+	transition:ease 2s;
+	transform:rotate(360deg);	
+}	
+	
+#footerleft{
+	background-color:cya; height:170px; width:260px;float:left; margin-left:120px; border-bottom:1px solid #a29e9e;
+}
+#footerleft h3{
+	font-family: Chaparral Pro Light;
+	padding-top:15px;
+	font-weight:700;
+}
+#footerleft p{
+	 font-family: Chaparral Pro Light;
+	 font-size:19px;
+	 padding-top:10px;
+}	
+
+
+#footerright{
+	background-color:greenyello; height:170px; width:420px;float:left; border-bottom:1px solid #a29e9e;
+}
+#footerright h3{
+	font-family: Chaparral Pro Light;
+	padding-top:15px;
+	font-weight:700;
+	text-align:center;
+}	
+#batan{
+	height:40px; width:220px; margin-left:70px; font-size:16px; margin-top:10px;
+}
+#sub{
+	height:40px; width:100px; border-radius:0px 5px 5px 0px; background-color:#00a651; font-size:17px;
+	 border:none; margin-left:-5px; margin-bottom:3px; 
+	 font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}			
+#footerbottom{
+	background-color:gree; height:70px; width:100%; 
+}
+#footerbottom h5{
+	   font-size:19pt;
+	font-family:gabriola;
+	font-weight:bold;
+	text-align:center;
+	padding-top:15px;
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+

@@ -1,0 +1,142 @@
+
+#navbar-inverse{
+	background-color:white; border-bottom:1px solid lavender; box-shadow: 0px 0px 10px 0px 
+	
+}
+#navbar-header{
+	background-color:re; margin-left:30px; 
+}
+#header{
+  height:80px; width:300px; background-color:purpl;
+}
+#loogin{
+	height:80px; background-color:cya; 
+}
+ #user{
+	 font-size:15px;  padding-top:30px; margin-left:-20px; color:#D9534F;
+ }
+#log{
+	height:auto; width:90px; margin-left:-10px; margin-top:25px; background-color:cya; 
+}
+#log p{
+	font-size:15px; color:#0159BD; font-family:Franklin Gothic Book; padding-top:25px; 
+}
+#RmLine{
+	text-decoration:none;
+}
+#AAA{
+	height:80px; margin:0px; padding:0px;
+}
+#reg{
+	height:80px; background-color:pin; 
+}
+
+#leftA{
+	height:auto; background-color:cya; 
+}
+#leftA img{
+	height:22px; width:22px; margin-left:-14px; margin-top:25px;
+}
+#rightA{
+	height:auto;  background-color:yello; 
+}
+#rightA p{
+	font-size:15px; color:#0159BD;  margin-left:-30px; margin-top:25px;
+}
+#pic{
+	height:65px; width:150px; margin-top:-12px; margin-left:40px;
+}
+#color{
+	background:rgba(0,0,0,0.3);
+}
+p
+{
+    color: #fff;
+	font-family:Franklin Gothic Book;
+}
+.menus
+{
+    color:#D9534F; padding-top:13px; margin-left:-15px;
+	font-family:Franklin Gothic Book; font-size:16px; 
+}
+.menus:hover{
+	color:orange;
+	 text-decoration:none;
+}
+#menus{
+	color:#D9534F; padding-top:13px; margin-left:330px;
+	font-family:Franklin Gothic Book; font-size:16px; 
+}
+#menus:hover{
+	color:orange;
+	 text-decoration:none;
+}
+
+#main{
+	height:auto; background-color:pin; margin-top:85px; 
+}
+#mainUp{
+	height:auto; background-color:orang; margin-bottom:10px;
+}
+#Text{
+	font-size:26px; color:#474545; text-align:center; padding-top:28px;
+}
+#textt{
+	font-size:16px; color:#666; text-align:center; padding-left:px;
+}
+#mainDown{
+	height:350px; background-color:lim;   
+}
+#Detail{
+	height:50px; background-color:cya;
+}
+#Detail p{
+	font-size:22px; color:#474545; text-align:center; padding-top:10px; font-family:Franklin Gothic Book;
+}
+#form{
+	height:300px; background-color:skyblu;
+}
+#form p{
+	font-size:17px; color:#474545; padding-top:30px; font-family:Franklin Gothic Book;
+}
+#box{
+	width:250px; height:30px; border:none; border-bottom:1px solid #666; padding-left:10px;
+}
+#bttn{
+	 width:170px; margin-top:40px; margin-left:30px; 
+}
+
+#footer{
+	height:auto; background-color:pin;
+}
+#footerleft{
+	height:auto; background-color:cya;
+}
+#footerup{
+	font-size:22px; color:black; padding-top:20px;
+}
+#footerdown{
+	font-size:15px; color:#999; font-family:Franklin Gothic book;
+}
+#boxline{
+	height:10px; background-color:lavender;
+}
+#links{
+	height:75px; background-color:cya;
+}
+#linksleft{
+	height:auto; background-color:pin;
+}
+#linksleftA{
+	height:25px; background-color:skyblu; margin-top:20px; text-decoration:none;
+}
+#linksleftA p{
+	font-size:16px; color:#999; margin-left:px; text-decoration:none;
+}
+#linksright{
+	height:65px; background-color:yello; margin-top:10px;
+}
+#linksright img{
+	margin-top:15px; margin-left:20px;
+}
+

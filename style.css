@@ -1,0 +1,1930 @@
+ /* (Social and Contact Info Boxes) - Retained */
+        .social-icons a i,
+        .contact-info-box i {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 8px; 
+            font-size: 18px;
+            transition: all 0.3s ease;
+            background-color:#A53DFF;
+        }
+
+
+
+        /* Default social icon style: Purple icon on White BG */
+        .social-icons a:not(.linkedin-a) i {
+            color: #A53DFF; 
+            background-color: white;
+            border: 1px solid p; 
+        }
+
+        /* LinkedIn specific style: White icon on Purple BG */
+        .social-icons a.linkedin-a i {
+            color: white;
+            background-color: #A53DFF; 
+            border: 1px solid p;
+        }
+
+        /* Contact Info Box Icons (Left Side - all same icon now) */
+        .contact-info-box i {
+            color: white;
+            border: none;
+            width: 50px;
+            height: 50px;
+            border-radius: 12px;
+            font-size: 24px;
+        }
+
+
+    
+        /* UPDATED STYLING FOR SERVICES (WORK PROCESS) */
+
+        .services-section {
+            display: flex;
+            align-items: flex-start; 
+            gap: 50px;
+            background-color: #f7f7f7; 
+            padding: 80px 0; 
+        }
+
+/* Sirf 1st (Research) aur 3rd (Design) box ko upar uthny ky lieye part */
+.service-boxes .service-box:nth-child(1),
+.service-boxes .service-box:nth-child(3) {
+  transform: translateY(-20px);
+}
+
+
+
+
+        .services-left {
+            flex: 1;
+        }
+
+        .services-left .section-heading {
+            font-size: 30px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: #3f3f3f;
+        }
+
+        .services-left .service-text {
+            color: #727272;
+            line-height: 1.6;
+            margin-top:-10px;
+        }
+
+        .service-boxes {
+            flex: 1;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* 2 columns */
+            gap: 100px; /* Space between the four boxes */
+            max-width: 600px; 
+        }
+
+        .service-box {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Subtle shadow like the image */
+            text-align: left;
+        }
+
+        .service-icon-wrapper {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px; 
+            height: 50px;
+            border-radius: 8px; 
+            font-size: 24px;
+            margin-bottom: 15px;
+            background-color: #A53DFF; 
+            color: white; 
+        }
+
+        /*  styles for the second and fourth boxes  */
+        .service-box:nth-child(2) .service-icon-wrapper,
+        .service-box:nth-child(4) .service-icon-wrapper {
+            background-color: #f0e6ff; 
+            color: #7f00ff; 
+        }
+
+        .service-box h3 {
+            font-size: 16px;
+            font-weight: 700;
+            color: #333;
+            margin: 0 0 10px 0;
+        }
+
+      
+
+        .service-box p {
+            font-size: 14px;
+            color: #888;
+            line-height: 1.5;
+            margin: 0;
+        }
+
+
+  /* NEW STYLING FOR CONTACT FORM (Based on 3333.PNG) */
+        
+        /* Contact Section layout adjustment if needed  */
+        .contact-section {
+            display: flex;
+            gap: 40px; 
+        }
+        .contact-left, .contact-right {
+            flex: 1;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px; 
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+        }
+
+        /* Top descriptive text */
+        .contact-form > p {
+            color: #666;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+
+        /* Input Field Styling (Underline only) */
+        .form-group, .full-width-input {
+            width: 100%;
+        }
+        
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px 0; 
+            border: none;
+            border-bottom: 1px solid #ddd; 
+            font-size: 16px;
+            margin-bottom: 0; 
+            outline: none; 
+            transition: border-bottom-color 0.3s;
+        }
+
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            border-bottom-color: #A53DFF; 
+        }
+
+        .contact-form textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        /* Styling for the labels/placeholders to mimic the image's look  */
+        .contact-form input::placeholder,
+        .contact-form textarea::placeholder {
+            color: #999;
+            opacity: 1;
+        }
+
+        /* Override specific placeholder/label to look like Name* in the image */
+        .contact-form input[name="name"]::placeholder {
+            color: #A53DFF; 
+        }
+        .contact-form input[name="name"]:focus::placeholder {
+            color: #7f00ff; 
+        }
+        .form-row {
+            display: flex;
+            gap: 20px;
+        }
+        .form-row .form-group {
+            flex: 1; 
+        }
+        
+        /* Submit Button Styling */
+        .form-button {
+            display: inline-flex; 
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background-color: #A53DFF; 
+            color: white;
+            padding: 10px 20px; 
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 500;
+            transition: background-color 0.3s;
+            width: fit-content; 
+            margin-top: 10px; 
+        }
+        .form-button:hover {
+            background-color: #5a00b0;
+        }
+        /* Icon for the submit button */
+        .form-button .fas {
+            font-size: 18px;
+        }
+      
+        
+        
+  /* portfolio section start here   */
+   .portfolio-section {
+      text-align: center; 
+        }
+
+ .portfolio-section .section-heading,
+  .portfolio-section .section-subtext {
+   margin-bottom: 5px;
+        }
+
+ .portfolio-section .section-subtext:nth-of-type(2) {
+    margin-bottom: 40px; 
+        }
+
+
+ /* Grid Layout */
+ .portfolio-grid {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr); 
+ gap: 30px;      
+ margin-bottom: 50px;
+ }
+
+ /* Individual Portfolio Item Card */
+ .portfolio-item-card {
+  background-color: skyblu;
+  border-radius: 7px; 
+  overflow: hidden; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); 
+  text-align: left; 
+  height:385px;
+}
+
+ .portfolio-item-card img {
+ width: 100%;
+ height: 190px; 
+ object-fit: cover; 
+ display: block;
+}
+
+ .portfolio-content {
+padding: 20px;
+ }
+        
+ .portfolio-content .category {
+ font-size: 12px;
+ color: #A53DFF; /* Purple text for category */
+ text-transform: uppercase;
+ letter-spacing: 1px;
+ font-weight: 600;
+ margin-bottom: 5px;
+ margin-left:px;
+ }
+
+ .portfolio-content h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #3d3d3d;
+  margin-top: 0;
+  margin-bottom: 10px;
+  }
+
+.portfolio-content p {
+ font-size: 13px;
+ color: #7c7c7c;
+ line-height: 1.4;
+ margin-bottom: 15px;
+ }
+
+ /* Case Study Button Style */
+ .case-study-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 5px;
+  background: none;
+  color: #A53DFF; 
+  border: 1px solid #A53DFF;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  width:50%;
+   margin-bottom:5px;       
+            
+ }
+        
+ .case-study-btn:hover {
+  background-color: #7f00ff;
+  color: white;
+  }
+
+ /* Arrow icon (fa-arrow-right) for the button in the image */
+ .case-study-btn i {
+  margin-left: 8px; 
+ }
+
+   /* More Project Button (Purple Fill) */
+ .more-project-btn {
+  display: inline-block;
+  background-color: #7f00ff; 
+  color: white;
+  padding: 12px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  margin-top: 20px; 
+   }
+        
+   .more-project-btn:hover {
+    background-color: #5a00b0;
+       }
+        
+        
+ /* about section start here with social media icons second container ki styling */
+       
+ .about-section {
+ background: linear-gradient(135deg, #e6f3ff, #f0e6ff); 
+ padding: 100px 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  }
+        
+ .about-card-wrapper {
+ display: flex;
+ background-color: re;
+ border-radius: 13px;
+ box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+ max-width: 1100px;
+ width: 100%;
+ padding: 50px;
+ gap: 50px;
+ align-items: center;
+   }
+.about-image-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  max-width: 360px;
+  text-align: center;
+  position: relative;
+   flex: 1;
+    position: relative;
+    text-align: center;
+    margin-left:20px;
+  }
+
+ .about-image-side img {
+  width: 90%;
+  border-radius: 15px; 
+  object-fit: cover;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  margin-bottom: -30px; 
+   max-width: 90%;
+    height: 390px;
+    border-radius: 10px;
+    margin-top:20px;
+ }
+        
+ /* second container main left image kay neechay social media icons ki coding */
+  .about-image-side .social-icons {
+    background-color:white; 
+    height:60px;
+    width:220px; 
+    border-radius:3px; 
+    margin-top:-5px;
+  display: flex;
+  gap: 10px;
+  padding: 10px 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  z-index: 10; 
+   }
+
+
+        
+  .about-content-side {
+   flex: 2;
+   }
+
+.about-content-side .section-heading {
+font-size: 29px;
+font-weight: 700;
+color: #333;
+margin-bottom: 10px;
+}
+        
+/* i am professional use designer wala section ki new heading*/
+.about-content-side .about-main-title {
+font-size: 33px;
+font-weight: 700;
+color: #333;
+margin-bottom: 20px;
+line-height: 1.2;
+ }
+
+/* About Text Styles */
+.about-content-side .about-text {
+font-size: 16px;
+color: #7a7a7a;
+line-height: 1.7;
+margin-bottom: 25px;
+ }
+        
+/* Button styles base */
+.about-buttons {
+display: flex;
+gap: 4px;
+margin-top: 25px;
+}
+        
+ /* My Project Button (Primary - Purple Fill) */
+.about-buttons .primary-btn {
+ background-color: #A53DFF; 
+ color: white;
+ border: none;
+ padding: 9px 27px;
+ border-radius: 5px;
+ font-weight: 500;
+ text-decoration: none;
+ transition: background-color 0.3s;
+     }
+
+.about-buttons .primary-btn:hover {
+  background-color: #5a00b0;
+       }
+
+   /* Download CV Button (Secondary - Purple Outline) */
+.about-buttons .secondary-btn {
+   background: none;
+   color: #7f00ff; 
+   border: 1px solid #A53DFF; 
+   padding: 9px 27px;
+   border-radius: 5px;
+   font-weight: 500;
+   cursor: pointer;
+   transition: all 0.3s;
+   }
+/* Download CV button ke liye thoda space dia*/
+.about-buttons button {
+    margin-left: 10px;
+}
+
+.about-buttons .secondary-btn:hover {
+ background-color: #cecdcf;
+ color:white;
+  }
+
+/* Icon spacing in buttons */
+.about-buttons .fas {
+ margin-right: 8px;
+  }
+
+/* ABOUT ME SECTION  */
+.about-section {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background: var(--light-bg);
+    padding: 80px 20px;
+}
+
+
+
+.social-icons {
+    
+    text-align: center;
+    margin:10px;
+}
+
+/*yh hai wo icon ki coding jiska margin remove kia yahi sy hoga baki ka kaam social media icons kaa*/
+.social-icons a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: px;
+    background: re;
+    color: var(--white);
+    border-radius: 20%;
+    
+    transition: background 0.3s;
+}
+
+
+.about-content-side {
+    flex: 1;
+}
+
+.about-text {
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+}
+
+
+
+
+
+
+
+ /* what do i do section*/
+ .what-i-do-section {
+    background-color:gra;
+     height:auto;
+     width:79%;
+     display: flex;
+     align-items: flex-start; 
+     gap: 50px;
+     padding: 80px 0; 
+        }
+
+ .what-i-do-left {
+  flex: 0.9;
+  padding-right: 20px;
+  margin-top:70px;
+  background-color:yello;
+  font-size: 0.96rem;
+  color:#87909D;
+ }
+
+.what-i-do-right {
+  flex: 1.1;
+  display: flex;
+ flex-direction: column;
+ gap: 17px;
+ background-color:pin;
+ margin-left:20px;
+  }
+
+.info-card {
+ background-color: white; 
+ padding: 15px;
+ border-radius: 5px;
+ box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+ transition: transform 0.3s ease;
+ }
+        
+.info-card:nth-child(1) {
+ border-left: 5px solid #A53DFF; 
+   }
+        
+.info-card h3 {
+ color: #333;
+ font-size: 1.3rem;
+ margin-top: 0;
+ margin-bottom: 2px;
+ font-weight: 600;
+ padding:3px;
+ }
+
+.info-card p {
+ color:#545963;
+ line-height: 1.3;
+ font-size: 0.9rem;
+ padding-bottom:10px;
+  }
+
+ /* Reusing button styles from previous sections for 'Say Hello!' */
+ .say-hello-btn {
+  background-color: #A53DFF; 
+  color: white;
+  padding: 7px 16px;
+  border: none;
+  border-radius: 3px;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  margin-top: 35px;
+  transition: background-color 0.3s ease;
+   }
+
+ .say-hello-btn:hover {
+     background-color: #7a28cc;
+      }
+        
+ .section-heading.left-aligned {
+       text-align: left;
+    }
+
+
+
+
+
+/*blog wali div ka gradient color*/
+ .gradient{
+background: radial-gradient(
+    circle at top left,
+    rgba(255, 192, 203, 0.35),
+    transparent 45%
+),
+radial-gradient(
+    circle at top right,
+    rgba(173, 216, 230, 0.35),
+    transparent 45%
+),
+radial-gradient(
+    circle at bottom right,
+    rgba(173, 216, 230, 0.25),
+    transparent 50%
+);
+}
+
+
+/* blog wali div ka updated gradient color - Only Centers */
+.gradiant {
+    background-image: 
+        radial-gradient(
+            circle, 
+            rgba(255, 192, 203, 0.4) 0%, 
+            transparent 70%
+        ),
+        radial-gradient(
+            circle, 
+            rgba(173, 216, 230, 0.4) 0%, 
+            transparent 70%
+        );
+    /* Pehla gradient left center mein aur doosra right center mein */
+    background-position: left center, right center;
+    /* Size ko chota rakha hai taake top/bottom tak na phailay */
+    background-size: 40% 40%; 
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+/* Custom Properties */
+:root {
+    --purple: #A53DFF; /* Primary Purple Color */
+    --light-bg: #f5f5f5;
+    --dark-bg: #333;
+    --text-color: #555;
+    --white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background: var(--white);
+    color: var(--text-color);
+    line-height: 1.6;
+} 
+
+/* General Layout */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    border: none;
+}
+
+.primary-btn {
+    background: #A53DFF;
+    color: var(--white);
+    font-weight: 500;
+}
+
+.primary-btn:hover {
+    background: #A53DFF; 
+}
+
+.secondary-btn {
+    background: var(--light-bg);
+    color: var(--text-color);
+    border: 1px solid #ccc;
+    margin-left: 10px;
+}
+
+.secondary-btn:hover {
+    background: #e0e0e0;
+}
+
+.section-heading {
+    font-size: 2.5rem;
+    color: var(--dark-bg);
+    margin-bottom: 20px;
+}
+
+.centered-heading {
+    text-align: center;
+}
+
+
+
+.centered-text {
+    text-align: center;
+}
+
+
+/* HEADER / NAVIGATION BAR  */
+.header {
+    background-color:cyan;
+    width:90%;
+    margin-left:70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background: var(--text-color);
+    
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}  
+
+.logo-title {
+    display: flex;
+    align-items: center;
+}
+.logo-title img{
+    width:180px; 
+    height:60px;
+}
+
+
+
+
+.navbar a {
+    
+    margin: 0 3px;
+    padding: 5px 50px;
+    border-radius: 5px;
+    color: #525151;
+    font-size:15px;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Selected Menu Item Style (Purple Box) */
+.navbar a.active {
+    
+    padding:10px 18px;
+    background: #A53DFF;
+    color: var(--white);
+    font-weight: bold;
+    border: 1px solid var(--purple); 
+} 
+
+.navbar a:hover {
+    background: var(--light-bg);
+}
+.nav-item{
+    background-color:pin;
+    margin-right:-200px;
+    font-weight:bold;
+}
+
+#menu-btn {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--dark-bg);
+    display: none; /* Desktop par hide rahega */
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+
+.hero-image {
+    width: 300px;
+    height: 500px;
+    flex: 0.8;
+    text-align: right;
+    margin-left:20px;
+}
+
+.hero-image img {
+    width: 100px;
+    height: 520px;
+    
+    border-radius: 10px;
+}
+
+
+
+
+
+
+.greeting {
+    font-size: 1.2rem;
+    color: var(--purple);
+}
+
+.main-heading {
+    font-size: 4rem;
+    color: var(--dark-bg);
+    margin: 10px 0 20px 0;
+}
+
+.hero-text {
+    margin-bottom: 30px;
+    font-size: 0.9rem;
+    color:#556070;
+}
+
+.counter-boxes {
+    display: flex;
+    gap: 3px;
+    margin-top: 25px;
+}
+
+.counter-boxes .box {
+    text-align: center;
+    padding: 7px;
+    background: var(--light-bg);
+    border-radius: 4px;
+    flex: 1;
+    line-height:30px;
+    font-size:14px;
+}
+
+.counter {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #424E60;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+
+.year {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #424E60;
+    display: block;
+    margin-bottom: 5px;
+}
+.plus {
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #424E60;
+    display: block;
+    margin-top: -35px;
+    margin-left:60px;
+}
+
+
+
+
+
+
+/*  work process section start here*/
+.services-section {
+    width:77%;
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.services-left {
+    flex: 1;
+}
+
+
+.service-boxes {
+    
+    flex: 1.0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 17px;
+}
+
+/* 4 boxes setting, 1.research, 2.analyz, 3.design, 4.launch*/
+.service-box {
+    padding: 20px;
+    background: var(--white);
+    border: 1px solid #eee;
+    border-radius: 10px;
+    transition: box-shadow 0.3s;
+}
+
+.service-box:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon {
+    font-size: 2.5rem;
+    color: var(--purple);
+    margin-bottom: 15px;
+}
+
+.service-box h3 {
+    color: rgb(65, 64, 64);
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+/*  PORTFOLIO SECTION  */
+.portfolio-section {
+    width:78%;
+    background: var(--light-bg);
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color:gray;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.portfolio-item {
+    background: var(--white);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.portfolio-item .project-link {
+    display: block;
+    color: var(--purple);
+    font-size: 0.9rem;
+    padding: 10px 15px 0;
+}
+
+.portfolio-item h3 {
+    color: var(--dark-bg);
+    padding: 5px 15px;
+}
+
+.portfolio-item p {
+    padding: 0 15px 15px;
+    font-size: 0.90rem;
+}
+
+.case-study-btn {
+    background: white;
+    color: var(--purple);
+    margin: 0 15px 15px;
+    padding: 8px 15px;
+    text-align: center;
+}
+
+.center-btn-container {
+    text-align: center;
+    margin-top: 40px;
+}
+.center-btn-container img{
+    width:11px; 
+    height:13px; 
+    margin-left:13px;
+     padding-top:3px;
+}
+
+
+
+
+
+
+
+
+
+.project-section {
+    background-color:#132238;
+    width:100%;
+    text-align: center;
+    padding: 50px 0px;
+    color:white;
+}
+.project-section h3 {
+   font-size:35px; 
+   color:white;
+   line-height:40px;
+   padding-top:16px;
+}
+.project-section p {
+   font-size:14px;
+   color:rgb(143, 143, 143);
+   line-height:20px;
+   word-spacing:1px;
+}
+
+.project-section .large-btn {
+    padding: 9px 29px;
+    font-size: 1.0rem;
+    margin-top: -13px;
+    color:white;
+    margin-bottom:18px;
+    border-radius:3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+/*  BLOG / latest post wala section */
+.blog-section {
+    width:76%;
+    background: re;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    color:rgb(150, 149, 149);
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+    margin-top: 40px;
+}
+
+.blog-post {
+    background: var(--white);
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.blog-post img {
+    width: 100%;
+    height: 140px;
+}
+
+.post-meta {
+    padding: 10px 15px;
+    font-size: 0.79rem;
+    color: gray;
+    display: flex;
+    justify-content: space-betwee;
+    gap:12px;
+}
+
+.post-title {
+    padding: 0 15px 15px;
+    color: rgb(82, 82, 82);
+    font-weight: bold;  /*bold bh kar sakty hain text ko our font-weight bh laga skty hain*/
+    line-height:18px;
+    font-size:15px;
+    margin-top:-6px;
+}
+
+/*  FAQ SECTION */
+.faq-section {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.faq-left {
+    flex: 1;
+}
+
+.faq-right {
+    flex: 2;
+}
+
+.faq-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.faq-question {
+    background: #fcfcfc;
+    padding: 15px;
+    cursor: pointer;
+    color: var(--dark-bg);
+    border-left: 5px solid transparent; /* Border for selected item */
+    transition: border-left 0.3s;
+}
+
+.faq-item.active .faq-question {
+    border-left: 5px solid var(--purple);
+}
+
+.faq-answer {
+    padding: 0 15px 15px;
+    display: none; 
+}
+
+.faq-item.active .faq-answer {
+    display: block; /* Active hone par dikhega */
+}
+
+/*  client our testimonil section  */
+.clients-testimonial-section {
+    background: radial-gradient(circle at center, rgba(247,230,220,0.9) 0%, rgba(247,230,220,0.4) 30%, transparent 65%);
+
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+    width:80%;
+}
+.clients-testimonial-section p{
+    line-height:23px;
+    font-family:montserrat;
+    font-weight:500;
+}
+
+.client-logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0;
+    flex-wrap: wrap;
+    gap:5px;
+}
+
+.client-logos img {
+    width: 10%;
+    height: 30px;
+    
+}
+
+.client-logos img:hover {
+    opacity: 1;
+}
+
+.testimonial-title {
+    margin-top: 50px;
+}
+
+.testimonial-text {
+    font-style: italic;
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.testimonial-author {
+    margin-bottom: 20px;
+}
+
+.testimonial-dots .dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: #ccc;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.testimonial-dots .dot.active {
+    background: var(--purple);
+}
+
+
+
+/*  CONTACT SECTION */
+.contact-section {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.contact-left {
+    flex: 1;
+}
+
+.contact-right {
+    flex: 1;
+    text-align: right;
+}
+
+.contact-right img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contact-info-box {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: px solid #eee;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s;
+}
+
+.contact-info-box:hover {
+    border-color: var(--purple);
+}
+
+.contact-icon {
+    font-size: 1.5rem;
+    color: var(--dark-bg);
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+
+.contact-info-box:hover .contact-icon {
+    color: var(--purple); 
+}
+
+.contact-info-box h3 {
+   
+    color: #2c3036;
+     font-family: 'Work Sans', sans-serif;
+     font-weight: bold; 
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+}
+.contact-info-box p {
+    margin-bottom: 3px;
+   color: #717883;
+       
+     font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0;
+}
+
+
+
+
+/*  FOOTER  setting */
+.footer {
+    
+    height:300px;
+    width:70%;
+    background: var(--dark-b);
+    color: var(--white);
+    padding: 25px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+         
+    transform: translateY(px); 
+}
+
+.footer img {
+    margin-top:px;
+    height:40px;
+    width:45px;
+    color: var(--white);
+    margin-right: 5px;
+}
+
+.footer .title {
+    margin-top:-20px;
+    color: var(--white);
+}
+.footer-nav {
+   width:px;
+   margin-left:-10px;
+    background-color:gree;
+}
+
+.footer-nav a {
+    gap:px;
+    margin-top:80px;
+    color: white;
+    margin: 0 10px;
+    opacity: 0.7;
+}
+
+.footer-nav a:hover {
+    margin-top:80px;
+    opacity: 1;
+    color: var(--purple);
+}
+
+.footer-right {
+    margin-top:80px;
+    opacity: 0.7;
+}
+
+
+
+
+/*  responsive queries */
+@media (max-width: 991px) {
+    .header {
+        padding: 15px 3%;
+    }
+
+    .navbar a {
+        margin: 0 5px;
+    }
+    .container {
+        padding: 40px 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Header (Mobile Menu) */
+    #menu-btn {
+        display: inline-block; 
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); 
+        transition: clip-path 0.3s ease;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); /* Jab active hoga to nzr aye  */
+    }
+
+    .navbar a {
+        display: block;
+        margin: 10px 0;
+        padding: 10px;
+        color: var(--white);
+    }
+    
+    .navbar a.active {
+        background: var(--purple);
+    }
+
+    /* Hero Section */
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .hero-image {
+        order: -1; /* Image ko upar le jayega */
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .main-heading {
+        font-size: 3rem;
+    }
+
+    .counter-boxes {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .counter-boxes .box {
+        flex: 45%; /* Do boxes ek line mein */
+    }
+
+    /* About Section */
+    .about-section {
+        flex-direction: column;
+    }
+    .services-section {
+        flex-direction: column;
+    }
+
+    .service-boxes {
+        grid-template-columns: 1fr; 
+    }
+    .portfolio-grid {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+
+    /* Blog Section */
+    .blog-grid {
+        grid-template-columns: 1fr; 
+    }
+    .faq-section, .contact-section {
+        flex-direction: column;
+    }
+    
+    .contact-right img {
+        margin-top: 30px;
+    }
+
+
+    /* Footer */
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .footer-nav {
+        margin: 15px 0;
+    }
+
+    .footer-nav a {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 450px) {
+    .counter-boxes .box {
+        flex: 100%; 
+    }
+    .portfolio-grid {
+        grid-template-columns: 1fr; 
+    }
+}  
+    .info-box-card {
+        transition: all 0.4s ease !important;
+        cursor: pointer;
+    }
+    /* Box hover par upar uthna aur shadow */
+    .info-box-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1) !important;
+    }
+
+    /* 1. Address Box Hover Logic */
+    .address-box:hover .icon-div {
+        background-color: #F4EDFF !important;
+        border: 1px solid #F4EDFF;
+    }
+    .address-box:hover .icon-div i {
+        color: #A53DFF !important;
+    }
+
+    /* 2. Email Box Hover Logic */
+    .email-box:hover .icon-div {
+        background-color: #A53DFF !important;
+    }
+    .email-box:hover .icon-div i {
+        color: white !important;
+    }
+
+    /* 3. Phone Box Hover Logic */
+    .phone-box:hover .icon-div {
+        background-color: #A53DFF !important;
+    }
+    .phone-box:hover .icon-div i {
+        color: white !important;
+    }
+
+    /* Social Icons Hover */
+    .social-link {
+        transition: 0.3s;
+    }
+    .social-link:hover {
+        transform: scale(1.2);
+        color: white !important;
+        background-color: #A53DFF !important;
+        padding:3px 12px;
+        border-radius:5px;
+    }
+    .social-link-bg:hover {
+        background-color: #4e1a75 !important; /* Slightly darker on hover */
+    }
+
+
+
+    /* Section Container */
+    .projects-section {
+        
+        padding: 60px 20px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+
+    .section-title {
+        color: #504f4f;
+        font-size: 36px;
+        font-weight: 800;
+        margin-bottom: 50px;
+    }
+
+    /* Grid Layout */
+    .projects-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        max-width: 1000px;
+        margin: 0 auto;
+        margin-bottom:50px;
+    }
+
+    /* Project Card */
+    .project-card {
+        background: #4d4d4d; /* Card bottom color */
+        border-radius: 15px;
+        overflow: hidden;
+        border: 1px solid #b3b2b2;
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+        text-align: left;
+    }
+
+    .project-card:hover {
+        transform: translateY(-15px); /* Card lifting up */
+        box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+    }
+
+    /* Image Interface (Upper Side) */
+    .project-image-wrapper {
+        position: relative;
+        height: 180px;
+        background-color: #f4f4f6; /* Placeholder color */
+        overflow: hidden;
+    }
+
+    .project-image-wrapper img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.5s ease;
+    }
+
+    /* Hover Overlay (Dark screen + Eye + View Project) */
+    .project-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6); /* Dark layer */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transition: opacity 0.4s ease;
+        color: white;
+        cursor: pointer;
+    }
+
+    .project-card:hover .project-overlay {
+        opacity: 1;
+    }
+
+    .project-card:hover .project-image-wrapper img {
+        transform: scale(1.1); /* Image slight zoom */
+    }
+
+    /* Eye Icon & Text */
+    .eye-icon {
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+
+    .view-text {
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    /* Bottom Content (Title & Description) */
+    .project-info {
+        padding: 25px;
+    }
+
+    .project-name {
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 10px;
+        line-height:15px;
+    }
+
+    .project-desc {
+        color: #cccccc;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    /* Eye Icon using CSS (hm FontAwesome bh use kar sakty hain) */
+    .eye-shape {
+        width: 30px;
+        height: 18px;
+        border: 2px solid white;
+        border-radius: 50% 50%;
+        position: relative;
+        display: inline-block;
+    }
+    .eye-shape::after {
+        content: '';
+        width: 8px;
+        height: 8px;
+        background: white;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+
+
+    .skills-section {
+        text-align: center;
+        padding: 50px 150px;
+        font-family: 'Poppins', sans-serif;
+        background-color: #f8f9fa;
+    }
+
+    .tech-badge {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        color: #A53DFF;
+        font-weight: 600;
+        font-size: 14px;
+        margin-bottom: -5px;
+    }
+
+    .tech-badge::before, .tech-badge::after {
+        content: "";
+        width: 30px;
+        height: 2px;
+        background-color: #A53DFF;
+    }
+
+    .skills-title {
+        color: #3b3b3b;
+        font-size: 38px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+
+    /* Outer White Div */
+    .outer-box {
+        max-width: 1100px;
+        margin: 0 auto;
+        background: #ffffff;
+        padding: 30px; 
+        border-radius: 15px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        margin-bottom:30px;
+    }
+
+    /* Inner Light Gray Div */
+    .inner-box {
+        background: #f4f4f6;
+        padding: 27px 0;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 2px 6px rgba(27, 27, 27, 0.05);
+        border: 1px solid rgb(228, 227, 227);
+    }
+
+    .marquee-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 23px;
+    }
+
+    .marquee-row {
+        display: flex;
+        overflow: hidden;
+        user-select: none;
+        /* Gap between content sets to match icon gaps */
+        gap: 12px; 
+    }
+
+    .marquee-content {
+        display: flex;
+        flex-shrink: 0;
+        gap: 12px; /* Icons ke darmiyan exact gap */
+        width: max-content; /* Extra gap khatam karne ke liye */
+        animation: scroll-left 25s linear infinite;
+    }
+
+    /* Independent row hover pause logic */
+    .marquee-row:hover .marquee-content {
+        animation-play-state: paused;
+    }
+
+    .reverse-scroll {
+        animation: scroll-right 25s linear infinite;
+    }
+
+    /* Icon Card & Hover Animation */
+    .icon-card {
+        background: #ffffff;
+        width: 65px;
+        height: 65px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        flex-shrink: 0;
+        transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        cursor: pointer;
+    }
+
+    .icon-card img {
+        width: 35px;
+        height: 35px;
+        object-fit: contain;
+        transition: transform 0.4s ease;
+    }
+
+    .icon-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+
+    .icon-card:hover img {
+        transform: translateY(-3px);
+    }
+
+    /* Infinite loop animations - Exact adjustment */
+    @keyframes scroll-left {
+        from { transform: translateX(0); }
+        to { transform: translateX(calc(-100% - 12px)); } /* Gap compensation */
+    }
+
+    @keyframes scroll-right {
+        from { transform: translateX(calc(-100% - 12px)); }
+        to { transform: translateX(0); }
+    }
+
+
+
+
+
+
+    /* 1. Existing Styling Rakhi Hai */
+    .process-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 15px;
+    }
+
+    .process-badge {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color:#A53DFF;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 14px;
+    }
+
+    .process-badge::before, .process-badge::after {
+        content: "";
+        display: inline-block;
+        width: 30px;
+        height: 2px;
+        background-color: #A53DFF;
+    }
+
+    .text-purple { color: #A53DFF; }
+
+    /* 2. Nayi Scroll Animations (Hidden state) */
+    .reveal-left {
+        opacity: 0;
+        transform: translateX(-100px);
+        transition: all 0.8s ease-out;
+    }
+
+    .reveal-right {
+        opacity: 0;
+        transform: translateX(100px);
+        transition: all 0.8s ease-out;
+    }
+
+    /* Jab screen par nazar aayein (Active state) */
+    .reveal-left.active, .reveal-right.active {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    /* Service Boxes ke liye thoda delay (Optional: ek ek karke aayein) */
+    .service-box {
+        opacity: 0;
+        transform: translateY(30px);
+        transition: all 0.6s ease-out;
+    }
+    
+    .service-box.active {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+
+/* Image Zoom/Magnifier Effect Styles */
+.hero-image {
+    position: relative;
+    overflow: hidden;
+}
+
+#zoom-image:hover {
+    transform: scale(1.05);
+}
+
+#magnifier.active {
+    opacity: 1;
+}
+
+
+
+
+/*  COUNTER BOXES HOVER  */
+.counter-boxes .box {
+    transition: all 0.3s ease;
+}
+
+.counter-boxes .box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.service-box {
+        transition: all 0.4s ease-in-out; /* Smooth movement ke liye */
+        cursor: pointer;
+    }
+
+    .service-box:hover {
+        transform: translateY(-10px); /* Box ko upar uthane ke liye */
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2) !important; /* Gehra shadow */
+    }
+
+
+
+/*  PORTFOLIO ITEMS HOVER  */
+.portfolio-item-card {
+    transition: all 0.3s ease;
+}
+
+.portfolio-item-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(24, 24, 24, 0.30) !important;
+}
+
+/*  BLOG POSTS HOVER  */
+.blog-post {
+    transition: all 0.3s ease;
+}
+
+.blog-post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(37, 37, 37, 0.25) !important;
+}
+
+/*  WHAT I DO INFO CARDS HOVER  */
+.info-card {
+    transition: all 0.3s ease;
+    position: relative;
+    border-left: 3px solid transparent;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1) !important;
+    border-left: 3px solid #A53DFF;
+}
+
+/* CONTACT INFO BOXES HOVER  */
+.contact-info-box {
+    transition: all 0.3s ease;
+}
+
+.contact-info-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(19, 34, 56, 0.25) !important;
+}
+
+/*  EXISTING FIRST CONTACT BOX STYLING PRESERVED */
+.contact-info-box:first-child {
+    box-shadow: 0 8px 20px rgba(19, 34, 56, 0.25) !important;
+}

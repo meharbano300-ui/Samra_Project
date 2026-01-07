@@ -1,0 +1,211 @@
+
+#navbar-inverse{
+	background-color:white; border-bottom:1px solid lavender; box-shadow:0px 0px 10px 0px;
+	
+}
+#navbar-header{
+	background-color:re; margin-left:30px; 
+}
+
+#header{
+  height:70px;  background-color:re;
+}
+#loogin{
+	height:70px; background-color:cya; 
+}
+ #user{
+	 font-size:15px;  padding-top:23px; margin-left:-20px;
+ }
+#log{
+	height:auto; width:90px; margin-left:-10px; margin-top:20px; background-color:cya; 
+}
+#log p{
+	font-size:15px; color:#0159BD; padding-top:20px; font-family:Franklin Gothic Book;
+}
+#RmLine{
+	text-decoration:none;
+}
+#AAA{
+	height:70px; margin:0px; padding:0px;
+}
+#reg{
+	height:70px; background-color:pin; 
+}
+
+#headerA{
+  height:auto; 
+}
+#leftA{
+	height:auto; background-color:cya; 
+}
+#leftA img{
+	height:22px; width:22px; margin-left:-14px; margin-top:20px;
+}
+#rightA{
+	height:auto;  background-color:yello; 
+}
+#rightA p{
+	font-size:15px; color:#0159BD;  margin-left:-30px; margin-top:20px; font-family:Franklin Gothic Book;
+}
+#pic{
+	height:56px; width:155px; margin-top:-12px;
+}
+#color{
+	background:rgba(0,0,0,0.3);
+}
+p
+{
+    color: #fff;
+	font-family:Franklin Gothic Book;
+}
+.menus
+{
+	color:#0159BD; padding-top:8px; padding-left:2px;
+	font-family:Franklin Gothic Book; font-size:16px; 
+}
+.menus:hover{
+	color:orange;
+	 text-decoration:none;
+}
+
+#dealpage{
+	background-color:#006FAF; height:70px; width:55px; font-size:15px; margin-left:-10px; font-family:Franklin Gothic Book;
+		margin-bottom:-15px; margin-top:-15px; color:#fff; text-align:center; padding-top:22px;	
+}
+#dealpage:hover{
+	background-color:white; color:#0159BD; font-size:16px;
+}
+
+#offer{
+	height:95px; background-color:#006FAF; margin-top:75px;
+}
+#offer p{
+	font-size:30px; color:white; padding-top:25px; text-align:center; font-family:Franklin Gothic Book;
+}
+#deals{
+	height:150; background-color:gra; margin-bottom:20px; margin-top:5px;
+}
+#deals p{
+	font-size:18.3px; color:#646464; padding-top:20px; text-align:center; font-family:Franklin Gothic Book;
+}
+#SpecialDeals{
+	height:auto; background-color:pin; 
+}
+#A{
+	height:135px; background-color:cya; text-align:center; 
+}
+#A img{
+	height:70px; width:70px; margin-left:-10px; border-radius:40px;
+}
+#A:hover img{
+	border:1px solid #999; border-radius:40px;
+}
+#A p{
+	font-size:15px; margin-left:-10px; color:#333; padding-top:5px; font-family:Franklin Gothic Book;
+}
+#B{
+	height:135px; background-color:cya; margin-left:50px;
+}
+#B img{
+	height:70px; width:70px; margin-left:-5px; border-radius:35px;
+}
+#B:hover img{
+	border:1px solid #999; border-radius:35px;
+}
+#B p{
+	font-size:15px; margin-left:-7px; color:#333; padding-top:5px; font-family:Franklin Gothic Book;
+}
+
+#line{
+	height:1px; background-color:#ccc
+}
+
+#company{
+	height:auto; background-color:pin; margin-top:px; 
+}
+#comp{
+	height:auto; background-color:re; margin-top:45px; margin-left:px;
+}
+#compan{
+	height:auto; background-color:skyble; margin-top:45px; margin-left:px;
+}
+#companyA{
+	height:330px; width:300px; background-color:white; border-radius:6px 6px 0px 0px; border:1px solid #ccc;
+}
+#companyA img{
+	height:180px; width:298px; margin-left:-15px; border-radius:6px 6px 0px 0px;
+}
+#writeA {
+	font-size:21px; color:#666; text-align:center; padding-top:20px; font-family:Franklin Gothic Book;
+} 
+#writeB{
+	font-size:17px; color:#666; text-align:center; margin-top:-12px; font-family:Franklin Gothic Book;
+}
+#para{
+	font-size:21px; color:#666; margin-top:20px; margin-left:-5px; font-family:Franklin Gothic Book;
+}
+#textbtn{
+	width:100%; height:40px; font-size:19px; font-family:Franklin Gothic Book; margin-top:10px;
+}
+#textbtn:hover{
+	color:orange;
+}
+#companyB{
+	height:330px; width:300px; background-color:white; border-radius:6px 6px 0px 0px; border:1px solid #ccc;
+}
+#companyB img{
+	height:180px; width:298px; margin-left:-15px; border-radius:6px 6px 0px 0px;
+}
+
+#box{
+	height:auto;
+}
+#boxBB{
+	height:50px; width:935px; border-top:1px solid #ccc; margin-top:30px; background-color:#FBF7F7; 
+}
+#boxBB p{
+	font-size:20px; color:black; padding-top:7px; font-family:Franklin Gothic Book; font-weight:700;
+}
+#boxBa{
+	height:140px; width:935px; box-shadow:0px 0px 1px 0px; 
+}
+#boxBa p{
+	font-size:16px; color:#333; padding-top:13px; font-family:Franklin Gothic Book;
+}
+
+#footer{
+	height:auto; background-color:#3F3F3F; margin-top:25px;
+}
+#footerinner{
+	height:auto; background-color:cya; 
+}
+#footerA{
+	height:auto; background-color:#3F3F3F; 
+}
+#footerAA{
+	height:auto; background-color:#3F3F3F; 
+}
+#upp{
+	font-size:22px; color:#FFFFFF; margin-left:-10px; padding-top:10px; font-family:Franklin Gothic Book;
+}
+#down{
+	font-size:15px; color:#FFFFFF; margin-left:-10px; font-family:Franklin Gothic Book;
+}
+#rights{
+	height:45px; background-color:black; 
+}
+#rights p{
+	font-size:15px; text-align:center; padding-top:9px; font-family:Franklin Gothic Book;
+}
+#links{
+	height:45px; background-color:black; 
+}
+#links img{
+	height:35px; width:35px; margin-left:20px; margin-top:10px;
+}
+#marquee{
+	height:60px; background-color:pin;
+}
+#img{
+	margin-top:-5px; height:60px; 
+}

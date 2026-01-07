@@ -1,0 +1,337 @@
+
+
+#up{
+	height:110px; width:100%; background-color:re; border:none;
+}
+#left{
+	height:110px; width:600px; background-color:pin; border:none; float:left;
+}
+#leftA{
+	background-color:gree; height:105px; width:250px; float:left;
+}
+#leftA img {
+	 height:70px; padding-left:170px; margin-top:16px;
+}
+#leftB{
+	background-color:orang; height:11px; width:350px; float:left;
+}
+#leftBup{
+	background-color:purpl; height:55px; width:350px; 
+}
+#leftBup p{
+	cursor:pointer; margin-left:10px; padding-top:20px; font-size:20pt; 
+	font-family: Chaparral Pro Light; text-transform:uppercase;
+	color:#056eb0; font-weight:700;
+}
+#leftBdown{
+	background-color:gra; height:50px; width:350px;
+}
+#leftBdown p{
+	margin-left:73px; padding-top:-10px; font-size:11pt;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	color:#056eb0;font-weight:700;
+}
+#right{
+	height:100px; width:500px; background-color:blu; border:none; float:left;
+}
+#log-in{
+	 height:43px; width:100px; color:white;  float:left; border:px solid gray;
+	margin-top:30px; margin-left:240px; background:(0,0,0,0.1);
+}
+#log-in p{
+	font-size:18px; color:#0773ac; font-family:Franklin Gothic ; padding-top:9px; margin-left:12px; float:left;
+}
+#log-out{
+	 height:43px; width:100px;  color:white;  float:left; border:px solid gray;
+	margin-top:30px; background:(0,0,0,0.1);
+}
+#log-out p{
+	font-size:18px; color:white; color:#0773ac; font-family:Franklin Gothic ; padding-top:9px; margin-left:10px; float:left;
+}
+#user{
+	 font-size:16px; padding-top:14px; color:white;  float:left; color:#0773ac; 
+}
+#zz{
+	height:100px; width:170px; background-color:lim; float:left;  
+}
+#zz img{
+	height:30px; width:19px; margin-top:35px; margin-left:15px; transition:ease 2s;
+	position:relative; 
+}
+#zz img:hover{
+	height:30px; width:19px; margin-top:35px; margin-left:15px;
+	transition:ease 2s; transform:rotate(360deg);
+}
+#navbar-inverse{
+	   background-color:#c3f6c5; border:1px solid black;  border-radius:0px;	
+}
+#navbar-header{
+	background-color:orang; margin-left:170px; height:50px; margin-top:-4px;
+}
+#brr{
+	height:50px; width:100%;  z-index: 1; content: ""; background:rgba(0,0,0,0.9);
+}
+#header{
+    height:30px; width:125px;  background-color:re; 
+}
+#loogin{
+	height:30px; width:125px; background-color:cya; margin-left:-20px;
+}
+#resource{
+  height:30px;  background-color:skyblu; width:210px;
+}
+#resources{
+	height:30px; width:220px; background-color:pin; padding-top:10px; margin-left:-40px;
+}
+#about{
+  height:30px; width:120px; background-color:blu;
+}
+#abouts{
+	height:40px; width:160px; background-color:darkkhak; padding-top:10px; margin-left:-30px;
+}
+#logg{
+	height:30px; width:160px; background-color:yellowgree; margin-left:-15px;
+}
+#logg p{
+	font-size:15px; color:#0159BD; font-family:Franklin Gothic Book; padding-top:15px; 
+}
+#media{
+  height:30px;  background-color:re; width:120px;
+}
+#medi{
+	height:30px; width:130px; background-color:cya; 
+}
+#mnu{
+	color:black;
+}
+#log{
+	height:30px; width:130px; margin-top:10px; background-color:gree; padding-left:-2px;
+}
+#log p{
+	font-size:15px; color:#0159BD; font-family:Franklin Gothic Book; padding-top:25px; 
+}
+#RmLine{
+	text-decoration:none;
+}
+.menus
+{
+	color:white; padding-top:15px; padding-left:5px;
+	font-family:Franklin Gothic ; font-size:16px; text-decoration:none;
+}
+.menu
+{
+	color:#0159BD; padding-top:15px; padding-left:5px;
+	font-family:Franklin Gothic ; font-size:16px; text-decoration:none;
+}
+.menus:hover{
+	color:orange; text-decoration:none;
+}
+
+#main {
+	height:1520px; width:100%; background-color:pin; margin-top:-20px;
+}
+#mainup{
+	height:auto; width:900px; margin-top:30px; background:rgba(0,0,0,0.9); 
+	border-radius:1px 1px 0px 0px; 	border-bottom:1px solid white;
+}
+#L{
+	height:90px; width:80px; background-color:re; float:left;  margin-top:15px;
+}
+#L img{
+	height:70px; width:70px; margin-left:20px;
+}
+#R{
+   height:110px; width:670px; background-color:orang; float:left;
+}
+#R p{
+	font-size:36px; padding-top:15px; padding-left:15px;  font-style:italic;
+	font-weight:700; color:white;
+}
+#R h3{
+	font-size:19px; margin-top:-8px; padding-left:45px;  font-style:italic; color:white;
+}
+
+#maindown{
+	height:1350px; background:rgba(0,0,0,0.9); border:px solid gray;
+}
+#select{
+	width:510px; height:50px;
+}
+#city{
+	height:100px; width:550px; background-color:pin; margin-left:180px; margin-top:20px;
+}
+#city p{
+	font-size:20px; color:white;
+}
+#one{
+	height:160px; width:550px; background-color:cya; margin-left:180px; margin-top:-20px;
+}
+#one h2{
+	font-size:28px; font-weight:700; padding-top:15px; color:white;
+}
+#one p{
+	font-size:20px; margin-top:-4px; color:white;
+}
+#first{
+	 width:250px; height:50px; float:left;
+}
+#last{
+	 width:250px; height:50px; margin-left:10px; float:left;
+}
+#two{
+	height:110px; width:550px; background-color:lim; margin-left:180px; 
+}
+#two p{
+	font-size:20px; margin-top:-4px; color:white;
+}
+#title{
+	 width:510px; height:50px; float:left;
+}
+#clear{
+	height:60px; width:250px; margin-left:180px; margin-top:10px; float:left;
+	font-size:18px; 
+}
+#sign{
+	height:60px; width:250px; margin-left:10px; margin-top:10px; float:left;
+	font-size:18px; 
+}
+
+#agree{
+	height:420px; width:560px; background-color:darkkhak; margin-left:180px; margin-top:80px;
+}
+#agree li{
+	font-size:15px;  margin-top:13px; color:white;
+}
+#agree p{
+	font-size:19px; padding-left:25px; margin-top:-22px; color:white;
+}
+#li{
+	font-size:15px; margin-left:-40px; padding-top:1px; color:white;
+}
+#agree h1{
+	font-size:33px; font-weight:700; margin-top:-1px; color:white;
+}
+#agree h3{
+	font-size:18px; padding-left:70px; margin-top:-1px; color:white;
+}
+#agree h4{
+	font-size:19px; padding-left:25px; margin-top:-27px; color:white;
+}
+#agree h5{
+	font-size:19px; padding-left:25px; margin-top:-18px; color:white;
+}
+#agree h6{
+	font-size:19px; padding-left:60px; margin-top:-20px; color:white;
+}
+#radio{
+	height:19px; width:19px; margin-left:30px; 
+}
+#agree h2{
+	font-size:19px; padding-left:25px; margin-top:-20px; color:white;
+}
+#submit{
+	height:60px; width:530px; margin-left:180px; font-size:19px; color:white; 
+	font-weight:700; margin-top:20px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	
+}
+
+
+	
+#footer{
+	 width:100%;  background:rgba(0,0,0,0.8); height:260px;  
+}	
+#footermiddle{
+	background-color:yello; height:160px; width:450px; float:left;
+}
+#footermiddleup{
+	background-color:darkkhak; height:60px; width:450px; float:left; margin-top:20px;
+}
+#footermiddleup p{
+	font-size:25px;  text-align:center; padding-top:15px;
+	font-family: Chaparral Pro Light; color:white;
+}
+#footermiddledown{
+	background-color:skyblu; height:90px; width:450px; float:left; border-bottom:1px solid #a29e9e;
+}
+#footermiddledown img{
+	height:40px; width:40px;
+	position:relative;
+	cursor:pointer;
+	transition:ease 6s;
+	left:120px;
+	margin-top:10px;
+}
+#footermiddledown img:hover{
+	height:40px; width:40px; 
+	transition:ease 2s;
+	transform:rotate(360deg);
+	
+	
+}		
+#footerleft{
+	background-color:cya; height:170px; width:260px;float:left; margin-left:120px; border-bottom:1px solid #a29e9e;
+}
+#footerleft h3{
+	font-size:25px;
+	font-family: Chaparral Pro Light;
+	padding-top:23px;
+	color:white;
+}
+#footerleft p{
+	 font-family: Chaparral Pro Light;
+	 font-size:19px;
+	 padding-top:10px;
+	 color:white;
+}	
+#footerright{
+	background-color:greenyello; height:170px; width:400px;float:left; border-bottom:1px solid #a29e9e;
+}
+#footerright h3{
+	font-family: Chaparral Pro Light;
+	padding-top:20px;
+	font-size:25px;
+	padding-left:100px;
+	color:white;
+}	
+#batan{
+	height:40px; width:200px; margin-left:85px; font-size:16px; margin-top:13px;
+}
+#sub{
+	height:40px; width:100px; border-radius:0px 5px 5px 0px; background-color:#00a651; font-size:17px;
+	 border:none; margin-left:-5px; margin-bottom:3px; 
+	 font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}			
+#footerbottom{
+	background-color:gree; height:70px; width:100%; margin-top:-90px;
+}
+#footerbottom li{
+	font-size:15px; padding-left:5px;
+}
+#footerbottom h5{
+	font-size:19pt;
+	font-family:gabriola;
+	font-weight:;
+	text-align:center;
+	padding-top:15px;
+	color:white;
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 

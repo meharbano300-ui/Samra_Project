@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brooklyn Gilbert - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+      
+
+        body {
+            
+            background-image: url('Images/BG.jpg'); 
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+           
+        }
+    
+
+
+
+        
+    </style>
+    <script>
+       
+    </script>
+</head>
+<body>
+
+          
+<div style="background-color:white; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); position: sticky; top: 0; z-index: 1000;">
+    <header class="header" style="background-color:white; width:75%; max-width:1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; padding: 15px 0;">
+        
+        <div class="logo-title">
+            <img src="images/logo.png" style="max-height: 60px;" />
+            <span class="title">.</span>
+        </div>
+
+        <nav class="navbar">
+            <a href="#home" class="nav-item">Home</a>
+            <a href="#about" class="nav-item">About</a>
+            <a href="#portfolio" class="nav-item">Services</a>
+            <a href="#blog" class="nav-item">My Skills</a>
+            <a href="#services" class="nav-item">Recent Work</a>
+            <a href="#contact" class="nav-item active">Contact</a>
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars" style="display: none; cursor: pointer; font-size: 25px;"></div>
+    </header> 
+</div>
+
+<style>
+    /* Desktop Navbar Styles */
+    .navbar a {
+        text-decoration: none;
+        color: #5c5c5c;
+        padding: 10px 10px;
+        font-weight: 500;
+        transition: 0.3s;
+        font-family:roboto;
+    }
+    .navbar a.active {
+        color: white;
+        background-color:#A53DFF;
+    }
+
+    /* Mobile Responsiveness */
+    @media (max-width: 768px) {
+        #menu-btn {
+            display: block !important; /* Mobile par 3 lines show hongi */
+        }
+
+        .navbar {
+            position: absolute;
+            top: 100%; 
+            left: 0; 
+            right: 0;
+            background-color: #f8f9fa !important; /* Light Gray Background */
+            border-top: 1px solid #eee;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); /* Shuru mein hidden */
+            transition: 0.4s ease-in-out;
+            z-index: 999;
+        }
+
+        /* Jab menu active ho */
+        .navbar.active {
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        }
+
+        .navbar a {
+            margin: 10px 0 !important;
+            width: 100%;
+            display: block;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+    }
+</style>
+
+<script>
+    // 3 lines (menu button) par click karne ki logic
+    let menuBtn = document.querySelector('#menu-btn');
+    let navbar = document.querySelector('.navbar');
+
+    menuBtn.onclick = () => {
+        menuBtn.classList.toggle('fa-times'); // Icon change (cross ban jayega)
+        navbar.classList.toggle('active');    // Menu show/hide hoga
+    };
+
+    // Scroll hone par menu band ho jaye
+    window.onscroll = () => {
+        menuBtn.classList.remove('fa-times');
+        navbar.classList.remove('active');
+    };
+</script>
+
+
+
+
+
+
+
+
+    <main>
+        
+
+
+
+      
+      
+ <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+<style>
+    .info-box-card {
+        transition: all 0.4s ease !important;
+        cursor: pointer;
+    }
+    /* Box hover par upar uthna aur shadow */
+    .info-box-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1) !important;
+    }
+
+    /* 1. Address Box Hover Logic */
+    .address-box:hover .icon-div {
+        background-color: #F4EDFF !important;
+        border: 1px solid #F4EDFF;
+    }
+    .address-box:hover .icon-div i {
+        color: #A53DFF !important;
+    }
+
+    /* 2. Email Box Hover Logic */
+    .email-box:hover .icon-div {
+        background-color: #A53DFF !important;
+    }
+    .email-box:hover .icon-div i {
+        color: white !important;
+    }
+
+    /* 3. Phone Box Hover Logic */
+    .phone-box:hover .icon-div {
+        background-color: #A53DFF !important;
+    }
+    .phone-box:hover .icon-div i {
+        color: white !important;
+    }
+
+    /* Social Icons Hover */
+    .social-link {
+        transition: 0.3s;
+    }
+    .social-link:hover {
+        transform: scale(1.2);
+        color: white !important;
+        background-color: #A53DFF !important;
+        padding:3px 12px;
+        border-radius:5px;
+    }
+    .social-link-bg:hover {
+        background-color: #4e1a75 !important; /* Slightly darker on hover */
+    }
+</style>
+
+<div style="background: radial-gradient(circle at left bottom, #f7e6dc 0%, #ffffff 30%, transparent 60%); padding-bottom: 0;">
+    
+    <section id="contact" class="contact-section" style="
+        background-color:white; 
+        width:75%; 
+        min-height:400px;
+        border-radius:15px; 
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+        margin: 0 auto; 
+        display: flex; 
+        gap: 70px; 
+        padding: 60px;
+        position: relative;
+        z-index: 10;
+        transform: translateY(100px);
+    ">
+    
+        <div class="contact-left" style="flex: 1;">
+            <h4 data-aos="fade-right" style="font-size:32px; color:#132238; font-weight:700; line-height:40px; margin-bottom:15px;">Let's discuss your Project</h4>
+            <p data-aos="fade-right" style="font-size:15px; line-height:22px; color:#87909D; margin-bottom: 30px;">
+                Have an idea or project in mind? Let’s collaborate to bring <br> it with user-friendly design and seamless functionality.
+            </p>
+
+            <div class="info-box-card address-box" data-aos="fade-right" data-aos-delay="100" style="background: #fff; box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); display: flex; align-items: center; gap: 20px; padding: 20px; border-radius: 12px; margin-bottom: 15px;   ">
+                <div class="icon-div" style="background-color:#A53DFF; border-radius:8px; padding:15px; transition: 0.4s; display: flex; align-items: center; justify-content: center;">
+                    <i class="fas fa-map-marker-alt" style="color:white; font-size: 20px; transition: 0.4s;"></i>
+                </div>
+                <div>
+                    <p style="margin:0; font-size:13px; font-family:roboto; color:#85888d;">My Address:</p>
+                    <h3 style="margin:0; font-size:15px; font-family:roboto; color:#484c50;">Haiderabad Town Sargodha</h3>
+                </div>
+            </div>
+
+
+
+            <div class="info-box-card email-box" data-aos="fade-right" data-aos-delay="300" style="display: flex; align-items: center; box-shadow: 0 5px 15px rgba(7, 4, 4, 0.05); gap: 20px; padding: 20px; margin-bottom: 15px; border-radius: 12px;">
+                <div class="icon-div" style="background-color:#F4EDFF; border-radius:8px; padding:15px; transition: 0.4s; display: flex; align-items: center; justify-content: center;">
+                    <i class="fas fa-envelope" style="color:#A53DFF; font-size: 20px; transition: 0.4s;"></i>
+                </div>
+                <div>
+                    <p style="margin:0; font-size:13px; font-family:roboto; color:#85888d;">My Email:</p>
+                    <h3 style="margin:0; font-size:15px; font-family:roboto; color:#2d3541;">meharbano300@gmail.com</h3>
+                </div>
+            </div>
+
+
+            
+            <div class="info-box-card phone-box" data-aos="fade-right" data-aos-delay="500" style="display: flex; align-items: center; box-shadow: 0 5px 15px rgba(7, 4, 4, 0.05); gap: 20px; padding: 20px; margin-bottom: 25px; border-radius: 12px;">
+                <div class="icon-div" style="background-color:#F4EDFF; border-radius:8px; padding:15px; transition: 0.4s; display: flex; align-items: center; justify-content: center;">
+                    <i class="fas fa-phone" style="color:#A53DFF; font-size: 20px; transition: 0.4s;"></i>
+                </div>
+                <div>
+                    <p style="margin:0; font-size:14px; font-family:roboto; color:#85888d;">Call Me Now:</p>
+                    <h3 style="margin:0; font-size:15px; font-family:roboto; color:#132238;"> 03271612414</h3>
+                </div>
+            </div>
+
+            <div style="display: flex; gap: 30px; padding-left: 10px;">
+                <a href="#" class="social-link-bg" style="color:white; border-radius:5px; padding:3px 13px; font-size: 19px; margin-top:-5px; background-color:#A53DFF; transition: 0.3s;"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-link" style="color:#A53DFF; font-size: 19px;"><i class="fab fa-dribbble"></i></a> 
+                <a href="#" class="social-link" style="color:#A53DFF; font-size: 19px;"><i class="fab fa-behance"></i></a> 
+                <a href="#" class="social-link" style="color:#A53DFF; font-size: 19px;"><i class="fab fa-instagram"></i></a> 
+                <a href="#" class="social-link" style="color:#A53DFF; font-size: 19px;"><i class="fab fa-linkedin-in"></i></a> 
+            </div>
+        </div>
+        
+        <div class="contact-left" style="flex: 1;" data-aos="fade-left"> 
+            <form id="contact-form" style="padding-top: 10px;"> 
+                <p style="color:#87909D;font-size:15px; margin-bottom:30px; line-height: 1.5;">Feel free to reach out for project inquiries, collaborations,<br> and questions. I’m always happy to connect and help.</p>
+                
+                <input type="text" name="user_name" placeholder="Name*" required style="width: 100%; border:none; border-bottom: 1.5px solid #E2E8F0; padding: 12px 0; margin-bottom: 25px; outline:none; font-size: 15px; transition: 0.3s;">
+                
+                <input type="email" name="user_email" placeholder="Email*" required style="width: 100%; border:none; border-bottom: 1.5px solid #E2E8F0; padding: 12px 0; margin-bottom: 25px; outline:none; font-size: 15px;">
+                
+                <input type="text" name="user_location" placeholder="Location" style="width: 100%; border:none; border-bottom: 1.5px solid #E2E8F0; padding: 12px 0; margin-bottom: 25px; outline:none; font-size: 15px;">
+                
+                <div style="display: flex; gap: 20px; margin-bottom: 25px;">
+                    <input type="text" name="user_phone" placeholder="Phone*" required style="flex: 1; border:none; border-bottom: 1.5px solid #E2E8F0; padding: 12px 0; outline:none;">
+                    <input type="text" name="subject" placeholder="Subject*" required style="flex: 1; border:none; border-bottom: 1.5px solid #E2E8F0; padding: 12px 0; outline:none;">
+                </div>
+
+                <textarea name="message" placeholder="Message*" required style="width: 100%; border:none; border-bottom: 1.5px solid #E2E8F0; padding: 12px 0; margin-bottom: 30px; outline:none; height: 60px; resize: none;"></textarea>
+                
+                <button type="submit" style="background-color: #A53DFF; font-size:16px; color: white; border: none; padding: 12px 19px; border-radius: 5px; cursor: pointer; font-weight: 600; display: flex; align-items: center; gap: 8px;">
+                    Submit <i class="fas fa-paper-plane"></i>
+                </button>
+                <p id="status-message" style="margin-top:15px; font-size:14px;"></p>
+            </form>
+        </div>
+    </section>
+</div>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({ duration: 1000, once: false });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer style="background-color:#212D45; padding: 150px 0 60px 0; margin-top: 0;">
+        <div style="width: 75%; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;">
+            
+            <div class="footer-left">
+                <img src="images/logo.png" alt="Logo" style="height: 45px; filter: brightness(0) invert(1);" /> 
+            </div>
+
+            <nav style="display: flex; gap: 30px;">
+                <a href="#home" style="color: white; text-decoration: none; font-size: 14px;">Home</a>
+                <a href="#about" style="color: white; text-decoration: none; font-size: 14px;">About</a>
+                <a href="#services" style="color: white; text-decoration: none; font-size: 14px;">Services</a>
+                <a href="#process" style="color: white; text-decoration: none; font-size: 14px;">My Skills</a>
+                <a href="#portfolio" style="color: white; text-decoration: none; font-size: 14px;">Recent Work</a>
+        
+            </nav>
+
+            <div style="color: #A0AEC0; font-size: 14px;">
+                Copyright © 2026 Samra.
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script>
+    AOS.init({ duration: 1000, once: false });
+
+    (function() {
+        emailjs.init("O5dbSb-yQ8rndbr8r"); 
+    })();
+
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+        const btn = this.querySelector('button');
+        const status = document.getElementById('status-message');
+        btn.innerText = 'Sending...';
+        
+        emailjs.sendForm('service_y66uqim', 'template_60aqrme', this)
+            .then(function() {
+                btn.innerHTML = 'Submit <i class="fas fa-paper-plane"></i>';
+                status.style.color = 'green';
+                status.innerText = 'Message sent successfully!';
+                document.getElementById('contact-form').reset();
+            }, function(error) {
+                btn.innerHTML = 'Submit <i class="fas fa-paper-plane"></i>';
+                status.style.color = 'red';
+                status.innerText = 'Failed to send message.';
+            });
+    });
+</script>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
