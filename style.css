@@ -445,10 +445,6 @@ margin-top: 25px;
 
 
 
-
-
-
-
  /* what do i do section*/
  .what-i-do-section {
     background-color:gra;
@@ -529,16 +525,10 @@ margin-top: 25px;
     }
 
 
-
-/*main first div ka gradient color */
+*main first div ka gradient color */
 .gradi {
     background: 
-        /* Top Left - Light Pink */
-        radial-gradient(
-            circle at top left,
-            rgba(255, 192, 203, 0.4),
-            transparent 50%
-        ),
+       
         /* Top Right - Skyblue */
         radial-gradient(
             circle at top right,
@@ -546,6 +536,7 @@ margin-top: 25px;
             transparent 50%
         );
 }
+
 
 
 /*blog wali div ka gradient color*/
