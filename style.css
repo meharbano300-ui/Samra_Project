@@ -1,45 +1,4 @@
- /* (Social and Contact Info Boxes) - Retained */
-        .social-icons a i,
-        .contact-info-box i {
-            display: inline-flex;
-            justify-content: center;
-            align-items: center;
-            width: 40px;
-            height: 40px;
-            border-radius: 8px; 
-            font-size: 18px;
-            transition: all 0.3s ease;
-            background-color:#A53DFF;
-        }
 
-
-
-        /* Default social icon style: Purple icon on White BG */
-        .social-icons a:not(.linkedin-a) i {
-            color: #A53DFF; 
-            background-color: white;
-            border: 1px solid p; 
-        }
-
-        /* LinkedIn specific style: White icon on Purple BG */
-        .social-icons a.linkedin-a i {
-            color: white;
-            background-color: #A53DFF; 
-            border: 1px solid p;
-        }
-
-        /* Contact Info Box Icons (Left Side - all same icon now) */
-        .contact-info-box i {
-            color: white;
-            border: none;
-            width: 50px;
-            height: 50px;
-            border-radius: 12px;
-            font-size: 24px;
-        }
-
-
-    
         /* UPDATED STYLING FOR SERVICES (WORK PROCESS) */
 
         .services-section {
@@ -156,7 +115,7 @@
             line-height: 1.5;
         }
 
-        /* Input Field Styling (Underline only) */
+        /* Input Field Styling  */
         .form-group, .full-width-input {
             width: 100%;
         }
@@ -234,74 +193,8 @@
       
         
         
-  /* portfolio section start here   */
-   .portfolio-section {
-      text-align: center; 
-        }
-
- .portfolio-section .section-heading,
-  .portfolio-section .section-subtext {
-   margin-bottom: 5px;
-        }
-
- .portfolio-section .section-subtext:nth-of-type(2) {
-    margin-bottom: 40px; 
-        }
 
 
- /* Grid Layout */
- .portfolio-grid {
- display: grid;
- grid-template-columns: repeat(3, 1fr); 
- gap: 30px;      
- margin-bottom: 50px;
- }
-
- /* Individual Portfolio Item Card */
- .portfolio-item-card {
-  background-color: skyblu;
-  border-radius: 7px; 
-  overflow: hidden; 
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); 
-  text-align: left; 
-  height:385px;
-}
-
- .portfolio-item-card img {
- width: 100%;
- height: 190px; 
- object-fit: cover; 
- display: block;
-}
-
- .portfolio-content {
-padding: 20px;
- }
-        
- .portfolio-content .category {
- font-size: 12px;
- color: #A53DFF; /* Purple text for category */
- text-transform: uppercase;
- letter-spacing: 1px;
- font-weight: 600;
- margin-bottom: 5px;
- margin-left:px;
- }
-
- .portfolio-content h3 {
-  font-size: 16px;
-  font-weight: 700;
-  color: #3d3d3d;
-  margin-top: 0;
-  margin-bottom: 10px;
-  }
-
-.portfolio-content p {
- font-size: 13px;
- color: #7c7c7c;
- line-height: 1.4;
- margin-bottom: 15px;
- }
 
  /* Case Study Button Style */
  .case-study-btn {
@@ -349,9 +242,28 @@ padding: 20px;
     background-color: #5a00b0;
        }
         
-        
- /* about section start here with social media icons second container ki styling */
+  
        
+
+
+ /* about section start here with social media icons second container ki styling */
+
+        /* Default social icon style: Purple icon on White BG */
+        .social-icons a:not(.linkedin-a) i {
+            color: #A53DFF; 
+            background-color: y;
+            border: 1px solid p; 
+            
+
+        }
+
+        /* LinkedIn specific style: White icon on Purple BG */
+        .social-icons a.linkedin-a i {
+            color: white;
+            border: 1px solid p;
+        }
+
+
  .about-section {
  background: linear-gradient(135deg, #e6f3ff, #f0e6ff); 
  padding: 100px 0;
@@ -395,6 +307,7 @@ padding: 20px;
     height: 390px;
     border-radius: 10px;
     margin-top:20px;
+    
  }
         
  /* second container main left image kay neechay social media icons ki coding */
@@ -405,8 +318,8 @@ padding: 20px;
     border-radius:3px; 
     margin-top:-5px;
   display: flex;
-  gap: 10px;
-  padding: 10px 10px;
+  gap: 1px;
+  padding: 10px 5px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   z-index: 10; 
    }
@@ -435,7 +348,7 @@ line-height: 1.2;
 
 /* About Text Styles */
 .about-content-side .about-text {
-font-size: 16px;
+font-size: 15px;
 color: #7a7a7a;
 line-height: 1.7;
 margin-bottom: 25px;
@@ -477,11 +390,11 @@ margin-top: 25px;
    }
 /* Download CV button ke liye thoda space dia*/
 .about-buttons button {
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .about-buttons .secondary-btn:hover {
- background-color: #cecdcf;
+ background-color: #e7e6e7;
  color:white;
   }
 
@@ -548,7 +461,7 @@ margin-top: 25px;
         }
 
  .what-i-do-left {
-  flex: 0.9;
+  flex: 0.8;
   padding-right: 20px;
   margin-top:70px;
   background-color:yello;
@@ -557,7 +470,7 @@ margin-top: 25px;
  }
 
 .what-i-do-right {
-  flex: 1.1;
+  flex: 2;
   display: flex;
  flex-direction: column;
  gap: 17px;
@@ -617,6 +530,22 @@ margin-top: 25px;
 
 
 
+/*main first div ka gradient color */
+.gradi {
+    background: 
+        /* Top Left - Light Pink */
+        radial-gradient(
+            circle at top left,
+            rgba(255, 192, 203, 0.4),
+            transparent 50%
+        ),
+        /* Top Right - Skyblue */
+        radial-gradient(
+            circle at top right,
+            rgba(135, 206, 235, 0.4),
+            transparent 50%
+        );
+}
 
 
 /*blog wali div ka gradient color*/
@@ -654,7 +583,6 @@ radial-gradient(
         );
     /* Pehla gradient left center mein aur doosra right center mein */
     background-position: left center, right center;
-    /* Size ko chota rakha hai taake top/bottom tak na phailay */
     background-size: 40% 40%; 
     background-repeat: no-repeat;
 }
@@ -662,11 +590,9 @@ radial-gradient(
 
 
 
-
-
 /* Custom Properties */
 :root {
-    --purple: #A53DFF; /* Primary Purple Color */
+    --purple: #A53DFF; 
     --light-bg: #f5f5f5;
     --dark-bg: #333;
     --text-color: #555;
@@ -735,28 +661,10 @@ body {
     text-align: center;
 }
 
-
-
 .centered-text {
     text-align: center;
 }
 
-
-/* HEADER / NAVIGATION BAR  */
-.header {
-    background-color:cyan;
-    width:90%;
-    margin-left:70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 5%;
-    background: var(--text-color);
-    
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}  
 
 .logo-title {
     display: flex;
@@ -768,11 +676,9 @@ body {
 }
 
 
-
-
 .navbar a {
     
-    margin: 0 3px;
+    margin: 0px;
     padding: 5px 50px;
     border-radius: 5px;
     color: #525151;
@@ -782,10 +688,9 @@ body {
 
 /* Selected Menu Item Style (Purple Box) */
 .navbar a.active {
-    
     padding:10px 18px;
-    background: #A53DFF;
-    color: var(--white);
+    background-color: #A53DFF;
+    color: white;
     font-weight: bold;
     border: 1px solid var(--purple); 
 } 
@@ -812,8 +717,6 @@ body {
     gap: 5px;
 }
 
-
-
 .hero-image {
     width: 300px;
     height: 500px;
@@ -828,9 +731,6 @@ body {
     
     border-radius: 10px;
 }
-
-
-
 
 
 
@@ -894,10 +794,6 @@ body {
 }
 
 
-
-
-
-
 /*  work process section start here*/
 .services-section {
     width:77%;
@@ -916,7 +812,7 @@ body {
     flex: 1.0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 17px;
+    gap: 13px;
 }
 
 /* 4 boxes setting, 1.research, 2.analyz, 3.design, 4.launch*/
@@ -924,7 +820,7 @@ body {
     padding: 20px;
     background: var(--white);
     border: 1px solid #eee;
-    border-radius: 10px;
+    border-radius: 8px;
     transition: box-shadow 0.3s;
 }
 
@@ -942,13 +838,6 @@ body {
     color: rgb(65, 64, 64);
     margin-bottom: 10px;
 }
-
-
-
-
-
-
-
 
 
 /*  PORTFOLIO SECTION  */
@@ -1017,13 +906,6 @@ body {
 }
 
 
-
-
-
-
-
-
-
 .project-section {
     background-color:#132238;
     width:100%;
@@ -1052,160 +934,6 @@ body {
     margin-bottom:18px;
     border-radius:3px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-
-
-/*  BLOG / latest post wala section */
-.blog-section {
-    width:76%;
-    background: re;
-    padding-top: 50px;
-    padding-bottom: 80px;
-    color:rgb(150, 149, 149);
-}
-
-.blog-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 18px;
-    margin-top: 40px;
-}
-
-.blog-post {
-    background: var(--white);
-    border-radius: 5px;
-    overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-}
-
-.blog-post img {
-    width: 100%;
-    height: 140px;
-}
-
-.post-meta {
-    padding: 10px 15px;
-    font-size: 0.79rem;
-    color: gray;
-    display: flex;
-    justify-content: space-betwee;
-    gap:12px;
-}
-
-.post-title {
-    padding: 0 15px 15px;
-    color: rgb(82, 82, 82);
-    font-weight: bold;  /*bold bh kar sakty hain text ko our font-weight bh laga skty hain*/
-    line-height:18px;
-    font-size:15px;
-    margin-top:-6px;
-}
-
-/*  FAQ SECTION */
-.faq-section {
-    display: flex;
-    gap: 40px;
-    align-items: flex-start;
-}
-
-.faq-left {
-    flex: 1;
-}
-
-.faq-right {
-    flex: 2;
-}
-
-.faq-item {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    margin-bottom: 10px;
-}
-
-.faq-question {
-    background: #fcfcfc;
-    padding: 15px;
-    cursor: pointer;
-    color: var(--dark-bg);
-    border-left: 5px solid transparent; /* Border for selected item */
-    transition: border-left 0.3s;
-}
-
-.faq-item.active .faq-question {
-    border-left: 5px solid var(--purple);
-}
-
-.faq-answer {
-    padding: 0 15px 15px;
-    display: none; 
-}
-
-.faq-item.active .faq-answer {
-    display: block; /* Active hone par dikhega */
-}
-
-/*  client our testimonil section  */
-.clients-testimonial-section {
-    background: radial-gradient(circle at center, rgba(247,230,220,0.9) 0%, rgba(247,230,220,0.4) 30%, transparent 65%);
-
-    padding-top: 80px;
-    padding-bottom: 80px;
-    text-align: center;
-    width:80%;
-}
-.clients-testimonial-section p{
-    line-height:23px;
-    font-family:montserrat;
-    font-weight:500;
-}
-
-.client-logos {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 40px 0;
-    flex-wrap: wrap;
-    gap:5px;
-}
-
-.client-logos img {
-    width: 10%;
-    height: 30px;
-    
-}
-
-.client-logos img:hover {
-    opacity: 1;
-}
-
-.testimonial-title {
-    margin-top: 50px;
-}
-
-.testimonial-text {
-    font-style: italic;
-    font-size: 1.2rem;
-    max-width: 800px;
-    margin: 20px auto;
-}
-
-.testimonial-author {
-    margin-bottom: 20px;
-}
-
-.testimonial-dots .dot {
-    display: inline-block;
-    width: 8px;
-    height: 8px;
-    background: #ccc;
-    border-radius: 50%;
-    margin: 0 5px;
-    cursor: pointer;
-}
-
-.testimonial-dots .dot.active {
-    background: var(--purple);
 }
 
 
@@ -1279,8 +1007,6 @@ body {
 }
 
 
-
-
 /*  FOOTER  setting */
 .footer {
     
@@ -1333,8 +1059,6 @@ body {
     margin-top:80px;
     opacity: 0.7;
 }
-
-
 
 
 /*  responsive queries */
@@ -1508,7 +1232,7 @@ body {
         border-radius:5px;
     }
     .social-link-bg:hover {
-        background-color: #4e1a75 !important; /* Slightly darker on hover */
+        background-color: #4e1a75 !important; 
     }
 
 
@@ -1540,7 +1264,7 @@ body {
 
     /* Project Card */
     .project-card {
-        background: #4d4d4d; /* Card bottom color */
+        background: #4d4d4d;
         border-radius: 15px;
         overflow: hidden;
         border: 1px solid #b3b2b2;
@@ -1549,7 +1273,7 @@ body {
     }
 
     .project-card:hover {
-        transform: translateY(-15px); /* Card lifting up */
+        transform: translateY(-15px); 
         box-shadow: 0 15px 30px rgba(0,0,0,0.5);
     }
 
@@ -1557,7 +1281,7 @@ body {
     .project-image-wrapper {
         position: relative;
         height: 180px;
-        background-color: #f4f4f6; /* Placeholder color */
+        background-color: #f4f4f6; 
         overflow: hidden;
     }
 
@@ -1575,7 +1299,7 @@ body {
         left: 0;
         width: 100%;
         height: 100%;
-        background: rgba(0, 0, 0, 0.6); /* Dark layer */
+        background: rgba(0, 0, 0, 0.6); 
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1591,10 +1315,9 @@ body {
     }
 
     .project-card:hover .project-image-wrapper img {
-        transform: scale(1.1); /* Image slight zoom */
+        transform: scale(1.1); 
     }
 
-    /* Eye Icon & Text */
     .eye-icon {
         font-size: 40px;
         margin-bottom: 5px;
@@ -1646,8 +1369,6 @@ body {
         left: 50%;
         transform: translate(-50%, -50%);
     }
-
-
 
 
     .skills-section {
@@ -1767,17 +1488,13 @@ body {
     /* Infinite loop animations - Exact adjustment */
     @keyframes scroll-left {
         from { transform: translateX(0); }
-        to { transform: translateX(calc(-100% - 12px)); } /* Gap compensation */
+        to { transform: translateX(calc(-100% - 12px)); } 
     }
 
     @keyframes scroll-right {
         from { transform: translateX(calc(-100% - 12px)); }
         to { transform: translateX(0); }
     }
-
-
-
-
 
 
     /* 1. Existing Styling Rakhi Hai */
@@ -1857,7 +1574,6 @@ body {
 
 
 
-
 /*  COUNTER BOXES HOVER  */
 .counter-boxes .box {
     transition: all 0.3s ease;
@@ -1870,13 +1586,13 @@ body {
 
 
 .service-box {
-        transition: all 0.4s ease-in-out; /* Smooth movement ke liye */
+        transition: all 0.4s ease-in-out; 
         cursor: pointer;
     }
 
     .service-box:hover {
-        transform: translateY(-10px); /* Box ko upar uthane ke liye */
-        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2) !important; /* Gehra shadow */
+        transform: translateY(-10px); 
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2) !important; 
     }
 
 
